@@ -1,10 +1,10 @@
 ---
-description: Beta环境用于测试Audience Manager实施。测试版中所做的更改不会影响生产数据。Audience Manager beta环境是一个规模较小、独立版本的生产环境。必须在此环境中输入和收集要测试的所有数据。
-seo-description: Beta环境用于测试Audience Manager实施。测试版中所做的更改不会影响生产数据。Audience Manager beta环境是一个规模较小、独立版本的生产环境。必须在此环境中输入和收集要测试的所有数据。
+description: 测试环境用于测试Audience manager实施。 测试版中所做的更改不会影响生产数据。 Audience Manager测试版环境是生产环境的一个较小规模的独立版本。 必须在此环境中输入并收集要测试的所有数据。
+seo-description: 测试环境用于测试Audience manager实施。 测试版中所做的更改不会影响生产数据。 Audience Manager测试版环境是生产环境的一个较小规模的独立版本。 必须在此环境中输入并收集要测试的所有数据。
 seo-title: 测试版环境
 solution: Audience Manager
 title: 测试版环境
-uuid: 6a253f4e-96e7-4395-a783-a8 eb213 b7 af
+uuid: 6a253f4e-96e7-4395-a783-a8eb213b7daf
 translation-type: tm+mt
 source-git-commit: 7765dbf79c2fb6ca8c4b52fe8090c1fd11f9db27
 
@@ -13,46 +13,46 @@ source-git-commit: 7765dbf79c2fb6ca8c4b52fe8090c1fd11f9db27
 
 # 测试版环境 {#beta-environment}
 
-Beta环境用于测试Audience Manager实施。测试版中所做的更改不会影响生产数据。Audience Manager beta环境是一个规模较小、独立版本的生产环境。必须在此环境中输入和收集要测试的所有数据。
+测试环境用于测试Audience manager实施。 测试版中所做的更改不会影响生产数据。 Audience Manager测试版环境是生产环境的一个较小规模的独立版本。 必须在此环境中输入并收集要测试的所有数据。
 
 ## 概述 {#overview}
 
 <!-- beta_environment_admin.xml -->
 
-| 服务 | URL/主机名 | 设置步骤 |
+| 服务 | URL/主机名 | 配置步骤 |
 |--- |--- |--- |
-| S3 |  | 请参阅 [设置Amazon S Buckets](admin-beta-environment.md#provision-s3-buckets)。 |
-| DCS | https&amp; amp；冒号；/dcs-beta.demdex.net/.。 | 无需任何其他步骤。请参阅 [访问测试版环境中的DCS](admin-beta-environment.md#access-dcs-beta-environment)。 |
-| 用户界面 | https&amp; amp；冒号；//bank-beta.demdex.com | 数据将按月从制作复制到测试环境。生产凭据适用于测试版。 |
-| API | https&amp; amp；冒号；/api-beta.demdex.com/.。 | 数据将按月从制作复制到测试环境。生产凭据适用于测试版。 |
+| S3 |  | 请参 [阅配置Amazon S3存储段](admin-beta-environment.md#provision-s3-buckets)。 |
+| DCS | https&amp;colon;//dcs-beta.demdex.net/... | 我们这边不需要额外的步骤。 请参 [阅在测试环境中访问DCS](admin-beta-environment.md#access-dcs-beta-environment)。 |
+| 用户界面 | https&amp;colon;//bank-beta.demdex.com | 每月将数据从生产中复制到测试环境。 生产凭据对测试版有效。 |
+| API | https&amp;colon;//api-beta.demdex.com/... | 每月将数据从生产中复制到测试环境。 生产凭据对测试版有效。 |
 
-## 规定Amazon S Buckets {#provision-s3-buckets}
-
->[!NOTE]
->
->我们正在放弃使用 [!DNL FTP/SFTP]。另外，请注意，出站数据传输不适用于测试版环境。
-
-为入站数据设置 [!DNL S3] 套接字：
-
-1. 使用 [**SKMS请求TechPs帮助**](https://skms.adobe.com/) 功能。
-1. 转到 **[!UICONTROL Request TechOps Help]** 左侧导航边栏。
-1. In **[!UICONTROL Request Search]**，in the Search field in the search field.
-1. 向下滚动搜索结果并单击 **Audience Manager- S3入站/出站帐户供应**。
-1. 填写供应窗口中的字段，并在字段中指定 **Sandbox环境****[!UICONTROL Environment]** 。
+## 配置Amazon S3存储段 {#provision-s3-buckets}
 
 >[!NOTE]
 >
->我们同意使用 [!DNL FTP/SFTP] 并鼓励 [!UICONTROL Amazon S3]使用。我们鼓励使用Amazon [!UICONTROL Amazon S3][S中列出的原因：](https://docs.adobe.com/content/help/en/audience-manager/user-guide/reference/amazon-s3.html)关于。
+>我们正在远离使用 [!DNL FTP/SFTP]。 另外，请注意，出站数据传输不适用于测试版环境。
 
-## 访问Beta环境中的DCS {#access-dcs-beta-environment}
+要为入站数 [!DNL S3] 据设置时段，请执行以下操作：
 
-要访问测试环境 [!UICONTROL DCS] 中的内容，请执行以下操作：
+1. 使用 [**SKMS请求TechOps帮助功能**](https://skms.adobe.com/) 。
+1. 转到左 **[!UICONTROL Request TechOps Help]** 侧导航边栏中的。
+1. 在中， **[!UICONTROL Request Search]**&#x200B;在搜索字段中键入Audience Manager。
+1. 在搜索结果中向下滚动，然后单击 **Audience Manager - S3入站／出站帐户配置**。
+1. 填写供应窗口中的字段，并在字段中 **指定沙箱****[!UICONTROL Environment]** 环境。
 
-1. 使用该命令进行 [!UICONTROL DCS][!DNL curl][通话](https://curl.haxx.se/docs/manpage.html)。[!DNL Curl] 是一种使用受支持的协议之一从服务器或服务器传输数据的工具。
+>[!NOTE]
+>
+>我们劝阻使用 [!DNL FTP/SFTP] 和鼓励使用 [!UICONTROL Amazon S3]。 Amazon S3:About中列出了我们鼓励 [!UICONTROL Amazon S3] 使用 [的原因](https://docs.adobe.com/content/help/en/audience-manager/user-guide/reference/amazon-s3.html)。
+
+## 在测试环境中访问DCS {#access-dcs-beta-environment}
+
+要访问测试 [!UICONTROL DCS] 版环境中的，请执行以下操作：
+
+1. 使用 [!UICONTROL DCS] 命令发出 [!DNL curl] 呼 [叫](https://curl.haxx.se/docs/manpage.html)。 [!DNL Curl] 是使用多种支持的协议之一从服务器传输数据或将数据传输到服务器的工具。
 
    例如：`curl -v https://dcs-beta.demdex.net/event`
 
-1. 验证您的请求是否通过“ [!UICONTROL DCS] 响应头[!DNL sandbox]”进行 [!UICONTROL DCS] 了测试。
+1. 通过在响应标题中查找“”，验 [!UICONTROL DCS] 证测试版是否提[!DNL sandbox]供了您 [!UICONTROL DCS] 的请求。
 
    例如：
 
