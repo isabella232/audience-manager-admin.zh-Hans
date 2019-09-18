@@ -1,18 +1,18 @@
 ---
-description: Audience Manager管理员工具可让您添加和配置公司、服务器、报表、格式和用户。您还可以查看或编辑个人配置文件。
-seo-description: Audience Manager管理员工具可让您添加和配置公司、服务器、报表、格式和用户。您还可以查看或编辑个人配置文件。
-seo-title: Audience Manager管理员主页
-title: Audience Manager管理员主页
-uuid: 4534b622-4c8d-4c42-8019-1614faiba9d6
+description: Audience Manager管理工具可让您添加和配置公司、服务器、报告、格式和用户。 您还可以查看或编辑您的个人配置文件。
+seo-description: Audience Manager管理工具可让您添加和配置公司、服务器、报告、格式和用户。 您还可以查看或编辑您的个人配置文件。
+seo-title: Audience Manager管理主页
+title: Audience Manager管理主页
+uuid: 4534b622-4c8d-4c42-8019-1614faaba9d6
 translation-type: tm+mt
 source-git-commit: 190ba5c1215782e46c8e544c10679d451fbed134
 
 ---
 
 
-# Audience Manager管理员主页 {#audience-manager-admin-home}
+# Audience Manager管理主页 {#audience-manager-admin-home}
 
-Audience Manager管理员工具可让您添加和配置公司、服务器、报表、格式和用户。您还可以查看或编辑个人配置文件。
+Audience Manager管理工具可让您添加和配置公司、服务器、报告、格式和用户。 您还可以查看或编辑您的个人配置文件。
 
 <table id="table_882B0982144442F79328A4FA45BD5C7E" frame="none"> 
  <tbody> 
@@ -22,12 +22,12 @@ Audience Manager管理员工具可让您添加和配置公司、服务器、报�
        c_home.xml 
      </draft-comment>将鼠标悬停在标题上可查看简要说明。 </p> <p> 
      <ul id="ul_A0416FDB65EB4774821C05664E14AB86"> 
-      <li id="li_C528ED722C7241C8A0F492B250322EA7"><a href="admin-servers/admin-authorize-s3-cross-bucket.md#task_20B12994C5484A9D8CC40DF6F456CBE7"> 如何：对针对批量目标的跨帐户Amazon S坩埚访问授权</a> </li> 
-      <li id="li_582FD48ADC894E00AE5961E2E80A3A92"><a href="admin-destination-troubleshooting.md#set-up-destinations-export"> 如何设置目标以导出Experience Cloud…</a> </li> 
+      <li id="li_C528ED722C7241C8A0F492B250322EA7"><a href="admin-servers/admin-authorize-s3-cross-bucket.md#task_20B12994C5484A9D8CC40DF6F456CBE7"> 操作方法：授权批处理目标的跨帐户Amazon S3存储段访问</a> </li> 
+      <li id="li_582FD48ADC894E00AE5961E2E80A3A92"><a href="admin-destination-troubleshooting.md#set-up-destinations-export"> 如何设置目标以导出Experience Cloud...</a> </li> 
       <li id="li_AB7BFF82D42649F3B72DA7737B05E355"><a href="formats/web-formats.md#reference_C392124A5F3F42E49F8AADDBA601ADFE"> HTTP格式宏</a> </li> 
-      <li id="li_FEC2B72DC2A04BEAAC36259C0882CECB"><a href="admin-oauth2/aam-admin-api-requirements.md#concept_A7FAC9443CF34974A873E6B787616421"> API要求和推荐</a> </li> 
-      <li id="li_5994853C069A44B2A1A8F3169119F001"><a href="formats/enable-outbound-seq.md#concept_526744C9433F40BF8269E18245B2F0BD"> 启用出站的Hadoop序列文件传输</a> </li> 
-      <li id="li_EC1DE0200F4B4EA1A7FBAB6A05D9F746"><a href="companies/admin-device-graph-options.md#concept_563615F1018340C683E0EE075F8F639D"> 适用于公司的设备图表选项</a> </li> 
+      <li id="li_FEC2B72DC2A04BEAAC36259C0882CECB"><a href="admin-oauth2/aam-admin-api-requirements.md#concept_A7FAC9443CF34974A873E6B787616421"> API要求和建议</a> </li> 
+      <li id="li_5994853C069A44B2A1A8F3169119F001"><a href="formats/enable-outbound-seq.md#concept_526744C9433F40BF8269E18245B2F0BD"> 启用Hadoop序列文件传输以进行出站</a> </li> 
+      <li id="li_EC1DE0200F4B4EA1A7FBAB6A05D9F746"><a href="companies/admin-device-graph-options.md#concept_563615F1018340C683E0EE075F8F639D"> 公司的设备图选项</a> </li> 
      </ul> </p> </td> 
    <td colname="col2" valign="top"> <p class="head"><b>发行说明</b> </p> 
     <ul id="ul_1AA5CED5DA0F4B78B8BC4D74539E97EF"> 
