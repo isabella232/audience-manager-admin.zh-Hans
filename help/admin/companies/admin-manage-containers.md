@@ -1,11 +1,11 @@
 ---
-description: 查看或编辑容器的数据提供者。
-seo-description: 查看或编辑容器的数据提供者。
-seo-title: 管理容器
-title: 管理容器
+description: View or edit data providers for containers.
+seo-description: View or edit data providers for containers.
+seo-title: ' 管理容器'
+title: Manage Containers
 uuid: 7dfcac5e-5502-4701-97f4-ae8015c3f0a6
 translation-type: tm+mt
-source-git-commit: be661580da839ce6332a0ad827dec08e854abe54
+source-git-commit: 63d12d92ad7196ac880d249435a7fe312c82280d
 
 ---
 
@@ -18,7 +18,7 @@ source-git-commit: be661580da839ce6332a0ad827dec08e854abe54
 
 >[!NOTE]
 >
->默认情况下，公司使用一个容器创建。 您可以在中的用户界面中为公司创建更多容器 **[!UICONTROL Manage Data > Tags]**。
+>默认情况下，公司使用一个容器创建。 您可以在中的用户界面中为公司创建更多容器 **[!UICONTROL Tools > Tags]**。
 
 1. 单 **[!UICONTROL Companies]**&#x200B;击，然后找到并单击所需的公司以显示其 [!UICONTROL Profile] 页面。
 
