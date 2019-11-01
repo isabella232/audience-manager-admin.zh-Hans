@@ -1,11 +1,11 @@
 ---
-description: View or edit data providers for containers.
-seo-description: View or edit data providers for containers.
-seo-title: ' 管理容器'
-title: Manage Containers
+description: 查看或编辑容器的数据提供者。
+seo-description: 查看或编辑容器的数据提供者。
+seo-title: 管理容器
+title: 管理容器
 uuid: 7dfcac5e-5502-4701-97f4-ae8015c3f0a6
 translation-type: tm+mt
-source-git-commit: 63d12d92ad7196ac880d249435a7fe312c82280d
+source-git-commit: 2998dc049971b2fac8c45ca6e3118ea607ae3f92
 
 ---
 
@@ -38,7 +38,7 @@ source-git-commit: 63d12d92ad7196ac880d249435a7fe312c82280d
 
 1. 如果 **[!UICONTROL Save]** 您进行了更改，请单击。
 
->[!MORE_LIKE_THIS]
+>[!MORELIKETHIS]
 >
 >* [ID与Media Optimizer同步](../companies/admin-amo-sync.md#concept_2B5537233DAA4860B3503B344F937D83)
 
