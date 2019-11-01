@@ -5,7 +5,7 @@ seo-title: ID与Media Optimizer同步
 title: ID与Media Optimizer同步
 uuid: b741dfa7-2947-4288-b214-79eccf18d53a
 translation-type: tm+mt
-source-git-commit: 40a6ca5d34ec72d8b88bc18f2e2b5390c2ea6f5e
+source-git-commit: 2998dc049971b2fac8c45ca6e3118ea607ae3f92
 
 ---
 
@@ -26,7 +26,7 @@ source-git-commit: 40a6ca5d34ec72d8b88bc18f2e2b5390c2ea6f5e
 | 开启（无论ID服务版本如何） | 在以下情况下，无论ID服 [!DNL AMO] 务版本如何，数据源都会与同步： <ul><li>数据源显示在列 [!UICONTROL Selected Data Sources] 表中。</li><li>未 [!DNL AMO] 选中 *复选框* 。</li></ul> |
 | 开启（无论ID服务版本如何） | 在以下情况下，数据源 [!DNL AMO] 将与ID服务版本2.0（或更高版本）同步： <ul><li>数据源显示在列 [!UICONTROL Selected Data Sources] 表中。</li><li>此 [!DNL AMO] 复选框 *已选* 中。</li></ul> |
 
->[!MORE_LIKE_THIS]
+>[!MORELIKETHIS]
 >
 >* [管理容器](../companies/admin-manage-containers.md#task_61DB5CEECC5049DD8D059C642AC3F967)
 
