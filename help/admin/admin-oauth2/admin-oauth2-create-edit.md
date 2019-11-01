@@ -5,7 +5,7 @@ seo-title: OAuth2客户端
 title: OAuth2客户端
 uuid: 3e654053-fb2f-4d8f-a53c-b5c3b8dbdaa
 translation-type: tm+mt
-source-git-commit: be661580da839ce6332a0ad827dec08e854abe54
+source-git-commit: 2998dc049971b2fac8c45ca6e3118ea607ae3f92
 
 ---
 
@@ -60,7 +60,7 @@ source-git-commit: be661580da839ce6332a0ad827dec08e854abe54
 
 要删除客 [!UICONTROL OAuth2] 户端，请单 **[!UICONTROL OAuth2 Clients]**&#x200B;击，然后单击 ![](assets/icon_delete.png) 所需客 **[!UICONTROL Actions]** 户端的列。
 
->[!MORE_LIKE_THIS]
+>[!MORELIKETHIS]
 >
 >* [API要求和建议](../admin-oauth2/aam-admin-api-requirements.md)
 
