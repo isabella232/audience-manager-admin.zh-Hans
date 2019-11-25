@@ -5,7 +5,7 @@ seo-title: 审核记录
 title: 审核记录
 uuid: null
 translation-type: tm+mt
-source-git-commit: 190ba5c1215782e46c8e544c10679d451fbed134
+source-git-commit: 6c09d99165c1294999f4a4d7ce763082e6d2cb8f
 
 ---
 
@@ -16,11 +16,13 @@ source-git-commit: 190ba5c1215782e46c8e544c10679d451fbed134
 
 > [!NOTE]
 >
->[!UICONTROL Audit Logging] 正在开发中，并可能发生更改。 请记录您在（团队）中遇到的 [!DNL JIRA] 任何[!DNL UI] 问题
+> 该功 [!UICONTROL Audit Logging] 能和文档当前正在开发中，并且可能会发生更改。 请记录您在（团队）中遇到 [!DNL JIRA] 的任[!DNL UI] 何问题。
 
 ![“审核日志记录”视图](assets/audit-logging-img.png)
 
-在“审 **核类型** ”下拉选择器中，选择以下选项：
+<!-- 
+
+In the **Audit Type** drop-down selector, choose between:
 
 * [!UICONTROL Partner]
 * [!UICONTROL User]
@@ -39,25 +41,27 @@ source-git-commit: 190ba5c1215782e46c8e544c10679d451fbed134
 * [!UICONTROL Model]
 * [!UICONTROL Segment Test Group]
 
-对 **象ID** 是您正在研究的项目的ID。 请参阅下表，每种情况下，其ID对应于对象ID:
+The **Object ID** is the ID of the item you're researching. See the table below for which ID corresponds to the Object ID in each case:
 
-| 审核类型 | 对象ID |
+Audit Type | Object ID |
 ---------|----------|
-| [!UICONTROL Partner] | 合作伙伴ID - PID |
-| [!UICONTROL User] | 用户 ID |
-| [!UICONTROL Group] | B3 |
-| [!UICONTROL Datasource Summary] | 数据源ID |
-| [!UICONTROL General Datasource] | 数据源ID |
-| [!UICONTROL Merge Rule Datasource] | 数据源ID |
-| [!UICONTROL Data Feed] | 数据源ID |
-| [!UICONTROL Data Feed Subscription] | 数据源ID |
-| [!UICONTROL Trait Summary] | SID（特征） |
-| [!UICONTROL Trait Rule] | SID（特征） |
-| [!UICONTROL Segment Summary] |  |
-| [!UICONTROL Destination Summary] |  |
-| [!UICONTROL Server-to-Server Destination] | 不适用 |
-| [!UICONTROL Derived Signal] | 不适用 |
-| [!UICONTROL Model] | 不适用 |
-| [!UICONTROL Segment Test Group] | 不适用 |
+ [!UICONTROL Partner] | Partner ID - PID |
+ [!UICONTROL User] | User ID |
+ [!UICONTROL Group] | B3 |
+ [!UICONTROL Datasource Summary] | Data Source ID |
+ [!UICONTROL General Datasource] | Data Source ID |
+ [!UICONTROL Merge Rule Datasource] | Data Source ID |
+ [!UICONTROL Data Feed] | Data Feed ID |
+ [!UICONTROL Data Feed Subscription] | Data Feed ID |
+ [!UICONTROL Trait Summary] | SID (trait) |
+ [!UICONTROL Trait Rule] | SID (trait) |
+ [!UICONTROL Segment Summary] |  |
+ [!UICONTROL Destination Summary] |  |
+ [!UICONTROL Server-to-Server Destination]| N/A |
+ [!UICONTROL Derived Signal] | N/A |
+ [!UICONTROL Model] | N/A |
+ [!UICONTROL Segment Test Group] | N/A |
 
-使 [!UICONTROL Start Date] 用([!DNL UTC])和 [!UICONTROL End Date] ([!DNL UTC])缩小日志的时间间隔。
+ Use [!UICONTROL Start Date] ([!DNL UTC]) and [!UICONTROL End Date] ([!DNL UTC]) to narrow down the time interval of the logs.
+
+ -->
