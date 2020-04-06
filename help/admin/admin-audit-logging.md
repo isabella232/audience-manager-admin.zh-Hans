@@ -5,7 +5,7 @@ seo-title: 审核记录
 title: 审核记录
 uuid: null
 translation-type: tm+mt
-source-git-commit: 6c09d99165c1294999f4a4d7ce763082e6d2cb8f
+source-git-commit: 53bf192d17e107f5f696712e578921abaa52b9ab
 
 ---
 
@@ -14,11 +14,11 @@ source-git-commit: 6c09d99165c1294999f4a4d7ce763082e6d2cb8f
 
 在调 [!UICONTROL  Audit Logging] 试客户问题时首先使用它。
 
-> [!NOTE]
+>[!NOTE]
 >
-> 该功 [!UICONTROL Audit Logging] 能和文档当前正在开发中，并且可能会发生更改。 请记录您在（团队）中遇到 [!DNL JIRA] 的任[!DNL UI] 何问题。
+>该功 [!UICONTROL Audit Logging] 能和文档当前正在开发中，并且可能会发生更改。 请记录您在（团队）中遇到 [!DNL JIRA] 的任[!DNL UI] 何问题。
 
-![“审核日志记录”视图](assets/audit-logging-img.png)
+![审核记录视图](assets/audit-logging-img.png)
 
 <!-- 
 
