@@ -1,23 +1,26 @@
 ---
 product: audience-manager
 audience: admin
-user-guide-title: Audience Manager管理指南
+user-guide-title: 受众管理器管理指南
 translation-type: tm+mt
-source-git-commit: b76aa4a35a5216aabd60d07352a7c4bd2b3e6e32
+source-git-commit: 5510710a65beb47cc6e8ee48a64a4efe91e4b904
+workflow-type: tm+mt
+source-wordcount: '154'
+ht-degree: 6%
 
 ---
 
 
-# Audience Manager管理指南 {#admin-guide}
+# 受众管理器管理指南 {#admin-guide}
 
-+ [Audience Manager管理主页](admin-home.md)
-+ [登录到Audience Manager管理员](admin-login.md)
-+ [如何请求职能管理员访问权限](admin-access.md)
++ [受众管理器管理主页](admin-home.md)
++ [登录到受众管理器管理员](admin-login.md)
++ [如何申请职能管理员访问权限](admin-access.md)
 + 公司{#companies}
    + [公司](companies/admin-companies-overview.md)
-   + [创建公司配置文件](companies/admin-manage-company-profiles.md)
+   + [创建公司用户档案](companies/admin-manage-company-profiles.md)
    + [管理容器](companies/admin-manage-containers.md)
-   + [公司的设备图选项](companies/admin-device-graph-options.md)
+   + [公司的设备图形选项](companies/admin-device-graph-options.md)
    + [ID与Media Optimizer同步](companies/admin-amo-sync.md)
    + [管理第一方数据提供者](companies/admin-first-party-providers.md)
    + [管理第三方数据提供商](companies/admin-third-party-providers.md)
@@ -37,7 +40,7 @@ source-git-commit: b76aa4a35a5216aabd60d07352a7c4bd2b3e6e32
    + [将门户用户分配给Tableau用户](admin-reporting/admin-assign-tableau-user.md)
 + 格式{#formats}
    + [格式概述](formats/formats.md)
-   + [启用Hadoop序列文件传输以进行出站](formats/enable-outbound-seq.md)
+   + [为出站启用Hadoop序列文件传输](formats/enable-outbound-seq.md)
    + [文件格式宏](formats/file-formats.md)
    + [文件格式宏示例](formats/file-format-examples.md)
    + [HTTP格式宏](formats/web-formats.md)
@@ -46,9 +49,8 @@ source-git-commit: b76aa4a35a5216aabd60d07352a7c4bd2b3e6e32
 + OAuth2客户端{#oath2-clients}
    + [OAuth2客户端](admin-oauth2/admin-oauth2-create-edit.md)
    + [API要求和建议](admin-oauth2/aam-admin-api-requirements.md)
-+ [集成用户](admin-manage-integration-users.md)
 + [审核记录](admin-audit-logging.md)
-+ [我的个人资料](admin-my-profile.md)
++ [我的用户档案](admin-my-profile.md)
 + [目标设置疑难解答](admin-destination-troubleshooting.md)
 + [测试版环境](admin-beta-environment.md)
 + [文档更新](admin-doc-updates.md)
