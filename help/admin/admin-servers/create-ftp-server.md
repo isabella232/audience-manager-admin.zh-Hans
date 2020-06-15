@@ -5,9 +5,9 @@ seo-title: 创建或编辑 FTP 服务器
 title: 创建或编辑 FTP 服务器
 uuid: 9273abb2-963d-4d83-bf5a-b3817f0b90e6
 translation-type: tm+mt
-source-git-commit: e0dc190f8765ec91431a2c02a62c6bf5458c7e3d
+source-git-commit: 78d694670e7abdc18938c5be729ad499e2647825
 workflow-type: tm+mt
-source-wordcount: '404'
+source-wordcount: '423'
 ht-degree: 5%
 
 ---
@@ -44,6 +44,9 @@ ht-degree: 5%
    >请记住将我们的出 [!DNL FTP] 口添 [!DNL IP] 加到允许的IP列表中： **52.44.29.204**。
 
 1. 对于身 **[!UICONTROL SSH Key]** 份验证：
+   >[!NOTE]
+   >
+   >配置SSH密钥身份验证时，请确保始终仅以OpenSSH格式生成公钥和私钥。
    1. 从任何或计算机生成公共／私 [!DNL Linux] 有密 [!DNL Mac] 钥对。
    1. 为客户端 **提供公钥** ，以便在其服务器上进行更 [!DNL SFTP] 新。 它们必须包含服务器上公钥中的所有文本，包括 `-----BEGIN RSA PRIVATE KEY-----` 和 `-----END RSA PRIVATE KEY-----` 。 作为交换，他们必须提供安装密钥时所使用的用户名。
    1. 使用客户端提供的用户名字段更新用户名字段，使用私钥更 **新密钥字段**。
