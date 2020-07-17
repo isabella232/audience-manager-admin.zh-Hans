@@ -1,22 +1,25 @@
 ---
-description: '在调试客户问题时，首先使用审核记录。 '
-seo-description: '在调试客户问题时，首先使用审核记录。 '
-seo-title: 审核记录
-title: 审核记录
+description: '在调试客户问题时，首先使用审核日志记录。 '
+seo-description: '在调试客户问题时，首先使用审核日志记录。 '
+seo-title: 审核日志记录
+title: 审核日志记录
 uuid: null
 translation-type: tm+mt
 source-git-commit: 53bf192d17e107f5f696712e578921abaa52b9ab
+workflow-type: tm+mt
+source-wordcount: '66'
+ht-degree: 9%
 
 ---
 
 
-# 审核记录 {#audit-logging}
+# 审核日志记录 {#audit-logging}
 
-在调 [!UICONTROL  Audit Logging] 试客户问题时首先使用它。
+在调 [!UICONTROL  Audit Logging] 试客户问题时，您可以首先使用它。
 
 >[!NOTE]
 >
->该功 [!UICONTROL Audit Logging] 能和文档当前正在开发中，并且可能会发生更改。 请记录您在（团队）中遇到 [!DNL JIRA] 的任[!DNL UI] 何问题。
+>功 [!UICONTROL Audit Logging] 能和文档当前正在开发中，可能会发生更改。 请记录您在（团队）中遇 [!DNL JIRA] 到的[!DNL UI] 任何问题。
 
 ![审核记录视图](assets/audit-logging-img.png)
 
