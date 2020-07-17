@@ -15,7 +15,7 @@ ht-degree: 5%
 
 # 创建或编辑 FTP 服务器 {#create-or-edit-an-ftp-server}
 
-使用 [!UICONTROL Servers] Audience Manager管理工具中的页面创建新的FTP服务器或编辑现有服务器。
+使用Audience Manager [!UICONTROL Servers] 管理工具中的页面创建新的FTP服务器或编辑现有服务器。
 
 >[!NOTE]
 >
@@ -27,7 +27,7 @@ ht-degree: 5%
 
    >[!NOTE]
    >
-   >作为最佳实践，我们建 [!DNL Amazon S3] 议将文件用作从合作伙伴获取文件并将文件交付给合作伙伴的方法。 [!DNL Amazon S3] 提供简单的web服务界面，可随时从Web上的任何位置存储和检索任意数量的数据。 有关详细信息，请 [参阅Audience Manager用户指南](https://docs.adobe.com/content/help/en/audience-manager/user-guide/reference/amazon-s3.html) 中 *的“关于Amazon S3”*。
+   >作为最佳实践，我们建 [!DNL Amazon S3] 议将文件用作从合作伙伴获取文件并将文件交付给合作伙伴的方法。 [!DNL Amazon S3] 提供简单的web服务界面，可随时从Web上的任何位置存储和检索任意数量的数据。 有关详细信息，请 [参阅《Audience Manager用户指南](https://docs.adobe.com/content/help/en/audience-manager/user-guide/reference/amazon-s3.html) 》中 *的“关于Amazon S3”*。
 
 1. 填写以下字段：
 
@@ -39,6 +39,7 @@ ht-degree: 5%
    * **[!UICONTROL Filename Suffix]:**指定要在传输文件时附加的文本。
    * **[!UICONTROL Moved to When Finished]:**指定完成时要将传输文件移动到的位置的路径。
    * **[!UICONTROL Authentication]:**指定所需的服务器身份验证方法：**[!UICONTROL Username/Password]**或&#x200B;**[!UICONTROL SSH Key]**者
+
    >[!NOTE]
    >
    >请记住将我们的出 [!DNL FTP] 口添 [!DNL IP] 加到允许的IP列表中： **52.44.29.204**。
