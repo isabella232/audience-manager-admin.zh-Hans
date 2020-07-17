@@ -4,9 +4,9 @@ seo-description: 借助 Audience Manager 管理工具，您可以添加和配置
 seo-title: Audience Manager 管理主页
 title: Audience Manager 管理主页
 uuid: 4534b622-4c8d-4c42-8019-1614faaba9d6
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 190ba5c1215782e46c8e544c10679d451fbed134
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '221'
 ht-degree: 100%
 
