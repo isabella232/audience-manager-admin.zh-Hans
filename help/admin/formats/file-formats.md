@@ -5,7 +5,7 @@ seo-title: 文件格式宏
 title: 文件格式宏
 uuid: f91c91b6-6581-4ed7-8d7f-f8532bd41df9
 translation-type: tm+mt
-source-git-commit: e1122a7f3d3e8c2d67616eb56cb186a4750ed29b
+source-git-commit: 0ee7aa9c13f1b9b8fd64dddff4e52d101055e77c
 workflow-type: tm+mt
 source-wordcount: '717'
 ht-degree: 2%
@@ -53,8 +53,8 @@ ht-degree: 2%
    <td colname="col1"> <p> <code>SYNC_MODE</code> </p> </td> 
    <td colname="col2"> <p>指示同步类型。 接受以下可选变量： </p> 
     <ul id="ul_87E8E3CE6565447A9810B5119298CC7B"> 
-     <li id="li_66F4889FB84E40AC92F69F3FF6B0042C"> <code>full</code>: 完全同步。 </li> 
-     <li id="li_BFE2C2D9A33A44FB9A840A7232ECCFFF"> <code>iter</code>: 增量同步。 </li> 
+     <li id="li_66F4889FB84E40AC92F69F3FF6B0042C"> <code>full</code>:完全同步。 </li> 
+     <li id="li_BFE2C2D9A33A44FB9A840A7232ECCFFF"> <code>iter</code>:增量同步。 </li> 
     </ul> </td> 
   </tr> 
   <tr> 
@@ -106,7 +106,7 @@ ht-degree: 2%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <code>CLOSE_CURLY_BRACKET</code> </p> </td> 
-   <td colname="col2"> <p>插入一个右大括号}字符。 </p> </td> 
+   <td colname="col2"> <p>插入一个右大括号 <code>}</code> 字符。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code>COMMA</code> </p> </td> 
@@ -138,7 +138,7 @@ ht-degree: 2%
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code>OPEN_CURLY_BRACKET</code> </p> </td> 
-   <td colname="col2"> <p>插入左大括号{字符。 </p> </td> 
+   <td colname="col2"> <p>插入一个左大括号 <code>{</code> 字符。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code>OPT_OUT</code> </p> </td> 
@@ -164,12 +164,12 @@ ht-degree: 2%
    <td colname="col1"> <p> <code>SEGMENT_LIST</code> </p> </td> 
    <td colname="col2"> <p>返回列表中的区段。 接受以下可选变量： </p> 
     <ul id="ul_B111AA0D6C18445598A1444B8B7E9325"> 
-     <li id="li_8603B40229624856AF1FBC434DB8F16A"> <code>segmentId</code>: 旧ID。 已弃用。使 <code>sid</code> 用（仅小写）。 </li> 
-     <li id="li_1EF40DDCA3C5447586904CF021D8F912"> <code>csegid</code>: 旧ID。 已弃用。使 <code>sid</code> 用（仅小写）。 </li> 
-     <li id="li_D85F0A5D16AE4DAFB55C17DBB35EA66E"> <code>sid</code>: 区段ID。 </li> 
-     <li id="li_9BE103EFD8384464B46FAC00422431DB"> <code>type</code>: 返回 <code>5</code>一个静态的硬编码值，它将数据标识为段数据。 </li> 
-     <li id="li_FE5049089F2944FA9DB9F9D546DBA167"> <code>alias</code>: 区段的映射。 已弃用。使 <code>sid</code> 用（仅小写）。 </li> 
-     <li id="li_DD778AA2D1DB4D409CF5026B5D9DBD27"> <code>lastUpdateTime</code>: 一个Unix时间戳，指示上次实现段的时间。 </li> 
+     <li id="li_8603B40229624856AF1FBC434DB8F16A"> <code>segmentId</code>:旧ID。 已弃用。使 <code>sid</code> 用（仅小写）。 </li> 
+     <li id="li_1EF40DDCA3C5447586904CF021D8F912"> <code>csegid</code>:旧ID。 已弃用。使 <code>sid</code> 用（仅小写）。 </li> 
+     <li id="li_D85F0A5D16AE4DAFB55C17DBB35EA66E"> <code>sid</code>:区段ID。 </li> 
+     <li id="li_9BE103EFD8384464B46FAC00422431DB"> <code>type</code>:返回 <code>5</code>一个静态的硬编码值，它将数据标识为段数据。 </li> 
+     <li id="li_FE5049089F2944FA9DB9F9D546DBA167"> <code>alias</code>:区段的映射。 已弃用。使 <code>sid</code> 用（仅小写）。 </li> 
+     <li id="li_DD778AA2D1DB4D409CF5026B5D9DBD27"> <code>lastUpdateTime</code>:一个Unix时间戳，指示上次实现段的时间。 </li> 
     </ul> <p>将这些变量放在宏后面的大括号中。 例如，此代码用管道“|”字符分隔结果： <code>&lt;SEGMENT_LIST:{seg|&lt;seg.type&gt;,&lt;seg.sid&gt;}; separator="|"&gt;</code> </p> </td> 
   </tr> 
   <tr> 
@@ -184,13 +184,13 @@ ht-degree: 2%
    <td colname="col1"> <p> <code>TRAIT_LIST</code> </p> </td> 
    <td colname="col2"> <p>返回特征列表。 接受以下可选参数： </p> 
     <ul id="ul_757DEB56E4F849768468F3C166B0D171"> 
-     <li id="li_859E1F4F21D645519F150DC512B3EB1A"> <code>type</code>: 由数字ID标识的特征类型。 此变量返回： 
+     <li id="li_859E1F4F21D645519F150DC512B3EB1A"> <code>type</code>:由数字ID标识的特征类型。 此变量返回： 
       <ul id="ul_C9839266783D42CCADAAC3FEA33BE4D7"> 
        <li id="li_6996A218E3F04EC3BC70032559DD87FC"> <code>10</code> 它标识DPM特征（脱机，由入站作业载入）。 </li> 
-       <li id="li_831FF929BF50434C8804C13E5786DF79"> <code>3</code> 识别基于规则的特征(实时、; 已载入DCS <span class="wintitle"> 中 </span>)。 </li> 
+       <li id="li_831FF929BF50434C8804C13E5786DF79"> <code>3</code> 识别基于规则的特征(实时、;已载入DCS <span class="wintitle"> 中 </span>)。 </li> 
       </ul> </li> 
-     <li id="li_E84D6BC80AEE4F10963C9882C4151ED4"> <code>traitId</code>: 特征ID。 </li> 
-     <li id="li_D30A849BA35248E6B9110FA3ADEFC332"> <code>lastRealized</code>: 上次这个特质被发现。 Unix时间戳。 </li> 
+     <li id="li_E84D6BC80AEE4F10963C9882C4151ED4"> <code>traitId</code>:特征ID。 </li> 
+     <li id="li_D30A849BA35248E6B9110FA3ADEFC332"> <code>lastRealized</code>:上次这个特质被发现。 Unix时间戳。 </li> 
     </ul> <p>将这些变量放在宏后面的大括号中。 例如，此代码用管道“|”字符分隔结果： <code>TRAIT_LIST{type|traitId};separator="|"</code> </p> </td> 
   </tr> 
   <tr> 
