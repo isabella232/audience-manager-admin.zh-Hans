@@ -5,9 +5,9 @@ seo-title: OAuth2 客户端
 title: OAuth2 客户端
 uuid: 3e654053-fb2f-4d8f-a53c-b5c3b8dbdaaa
 translation-type: tm+mt
-source-git-commit: 2998dc049971b2fac8c45ca6e3118ea607ae3f92
+source-git-commit: 0ee7aa9c13f1b9b8fd64dddff4e52d101055e77c
 workflow-type: tm+mt
-source-wordcount: '597'
+source-wordcount: '596'
 ht-degree: 2%
 
 ---
@@ -23,7 +23,7 @@ ht-degree: 2%
 
 >[!NOTE]
 >
->确保您的客户阅读 [[!DNLAudience Manager](https://docs.adobe.com/content/help/en/audience-manager/user-guide/api-and-sdk-code/rest-apis/aam-api-getting-started.html#oauth) User Guide（DNL用户指南）中的OAuth2文档。
+>确保您的客户阅读《Audience Manager [用户指南](https://docs.adobe.com/content/help/en/audience-manager/user-guide/api-and-sdk-code/rest-apis/aam-api-getting-started.html#oauth) 》中的OAuth2文档。
 
 [!DNL OAuth2] 是一个开放的授权标准，用于代表资源所有者 [!DNL Audience Manager] 提供对资源的安全委托访问。
 
@@ -48,16 +48,16 @@ ht-degree: 2%
 1. 在部分 **[!UICONTROL Scope]** 中，根据需要选择或取 **[!UICONTROL Read]** 消选 **[!UICONTROL Write]** 中相应的和复选框。
 1. 在部分 **[!UICONTROL Grant Type]** 中，选择所需的授权方式。 我们建议您使用默认设置和 [!UICONTROL Password] 选项 [!UICONTROL Refresh-token] 。
 
-   * **[!UICONTROL Implicit]**: 如果选择此选项，则 [!UICONTROL Redirect URI] 将启用框。 用户在经过身份验证后被赋予自动访问令牌，并立即被发送到重定向 [!DNL URI]。
-   * **[!UICONTROL Authorization Code]**: 如果选择此选项，则 [!UICONTROL Redirect URI] 将启用框。 用户在经过身份验证后返回到客户端，然后被发送到重定向 [!DNL URI]。
-   * **[!UICONTROL Password]**: 使用用户输入的口令而不是通过授权服务器进行自动式校验尝试来验证用户。
-   * **[!UICONTROL Refresh_token]**: 用于刷新已过期访问令牌的较长时间。
+   * **[!UICONTROL Implicit]**:如果选择此选项，则 [!UICONTROL Redirect URI] 将启用框。 用户在经过身份验证后被赋予自动访问令牌，并立即被发送到重定向 [!DNL URI]。
+   * **[!UICONTROL Authorization Code]**:如果选择此选项，则 [!UICONTROL Redirect URI] 将启用框。 用户在经过身份验证后返回到客户端，然后被发送到重定向 [!DNL URI]。
+   * **[!UICONTROL Password]**:使用用户输入的口令而不是通过授权服务器进行自动式校验尝试来验证用户。
+   * **[!UICONTROL Refresh_token]**:用于刷新已过期访问令牌的较长时间。
 
 1. 在框 **[!UICONTROL Redirect URI]** 中，指定所需 [!DNL URI]。 仅当您选择类型和授予类型时，才 **[!UICONTROL Implicit]** 启用 **[!UICONTROL Authorization_code]** 此选项。 在该 **[!UICONTROL Redirect URI]** 框中，可以指定可接受值的以逗号分隔 [!DNL URI] 的值。 这是在批准 [!DNL URI] 客户端进行访问后，将客户端的用户重定向到的 [!DNL API] 用户。
 1. 指定访问和刷新令牌到期所需的到期时间（以秒为单位）。
 
-   * **[!UICONTROL Access Token Expiration Time]**: 发出访问令牌后有效的秒数。 使用平台默认值（12小时）可为null。 也可以是-1，表示访问令牌未过期。
-   * **[!UICONTROL Refresh Token Expiration Time]**: 发出刷新令牌后有效的秒数。 使用平台默认值（30天）可为null。
+   * **[!UICONTROL Access Token Expiration Time]**:发出访问令牌后有效的秒数。 使用平台默认值（12小时）可为null。 也可以是-1，表示访问令牌未过期。
+   * **[!UICONTROL Refresh Token Expiration Time]**:发出刷新令牌后有效的秒数。 使用平台默认值（30天）可为null。
 
 1. 单击 **[!UICONTROL Save]**.
 
