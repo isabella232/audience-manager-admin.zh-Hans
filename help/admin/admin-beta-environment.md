@@ -24,38 +24,38 @@ ht-degree: 3%
 
 | 服务 | URL/主机名 | 设置步骤 |
 |--- |--- |--- |
-| S3 |  | 请参 [阅配置Amazon S3桶](admin-beta-environment.md#provision-s3-buckets)。 |
-| DCS | https&amp;colon;//dcs-beta.demdex.net/... | 我们这边不需要额外的步骤。 请参 [阅在测试版环境中访问DCS](admin-beta-environment.md#access-dcs-beta-environment)。 |
+| S3 |  | 请参阅[设置AmazonS3桶](admin-beta-environment.md#provision-s3-buckets)。 |
+| DCS | https&amp;colon;//dcs-beta.demdex.net/... | 我们这边不需要额外的步骤。 请参阅[在测试版环境](admin-beta-environment.md#access-dcs-beta-environment)中访问DCS。 |
 | 用户界面 | https&amp;colon;//bank-beta.demdex.com | 数据将每月从生产中复制到测试环境。 生产凭据对测试版有效。 |
 | API | https&amp;colon;//api-beta.demdex.com/... | 数据将每月从生产中复制到测试环境。 生产凭据对测试版有效。 |
 
-## 配置Amazon S3桶 {#provision-s3-buckets}
+## 设置AmazonS3桶{#provision-s3-buckets}
 
 >[!NOTE]
 >
->我们正在远离使用 [!DNL FTP/SFTP]。 另外，请注意，外发数据传输对测试版环境无效。
+>我们正在远离使用[!DNL FTP/SFTP]。 另外，请注意，外发数据传输对测试版环境无效。
 
-要为入站数 [!DNL S3] 据设置时段，请执行以下操作：
+为入站数据预配[!DNL S3]存储段：
 
-1. 使用SKMS [**请求技术操作帮助&#x200B;**](https://skms.adobe.com/)。
-1. 转到左 **[!UICONTROL Request TechOps Help]** 侧导航边栏中。
-1. 在 **[!UICONTROL Request Search]**&#x200B;搜索字段中键入Audience Manager。
-1. 在搜索结果中向下滚动并单击 **Audience Manager- S3入站／出站帐户设置**。
-1. 填写供应窗口中的字段，并在字 **段中指定** “沙箱 **[!UICONTROL Environment]** 环境”。
+1. 使用&#x200B;[**SKMS请求TechOps帮助**](https://skms.adobe.com/)功能。
+1. 转到左侧导航边栏中的&#x200B;**[!UICONTROL Request TechOps Help]**。
+1. 在&#x200B;**[!UICONTROL Request Search]**&#x200B;中，在搜索字段中键入Audience Manager。
+1. 在搜索结果中向下滚动并单击&#x200B;**Audience Manager- S3入站／出站帐户设置**。
+1. 填写供应窗口中的字段，并在&#x200B;**[!UICONTROL Environment]**&#x200B;字段中指定&#x200B;**沙箱环境**。
 
 >[!NOTE]
 >
->我们劝阻使用 [!DNL FTP/SFTP] 和鼓励使用 [!UICONTROL Amazon S3]。 Amazon S3:About中列出了我 [!UICONTROL Amazon S3] 们鼓励 [使用的原因](https://docs.adobe.com/content/help/en/audience-manager/user-guide/reference/amazon-s3.html)。
+>我们禁止使用[!DNL FTP/SFTP]，并鼓励使用[!UICONTROL Amazon S3]。 我们鼓励使用[!UICONTROL Amazon S3]的原因列在[AmazonS3:About](https://docs.adobe.com/content/help/en/audience-manager/user-guide/reference/amazon-s3.html)中。
 
-## 在测试版环境访问DCS {#access-dcs-beta-environment}
+## 访问测试版环境{#access-dcs-beta-environment}中的DCS
 
-要访问测 [!UICONTROL DCS] 试版环境中的：
+要访问测试环境中的[!UICONTROL DCS]:
 
-1. 使用 [!UICONTROL DCS] 命令进行 [!DNL curl] 调 [用](https://curl.haxx.se/docs/manpage.html)。 [!DNL Curl] 是使用多种支持的协议之一从服务器传输数据或将数据传输到服务器的工具。
+1. 使用[!DNL curl] [命令](https://curl.haxx.se/docs/manpage.html)进行[!UICONTROL DCS]调用。 [!DNL Curl] 是使用多种支持的协议之一从服务器传输数据或将数据传输到服务器的工具。
 
    例如：`curl -v https://dcs-beta.demdex.net/event`
 
-1. 通过在响应标题中查找“”, [!UICONTROL DCS] 验证测试版是[!DNL sandbox]否提供了 [!UICONTROL DCS] 您的请求。
+1. 通过在[!UICONTROL DCS]响应标头中查找“[!DNL sandbox]”，验证测试版[!UICONTROL DCS]是否提供了您的请求。
 
    例如：
 
