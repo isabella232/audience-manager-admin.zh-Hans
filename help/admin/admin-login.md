@@ -19,5 +19,5 @@ ht-degree: 59%
 
 <!-- t_login.xml -->
 
-1. 通过浏览 [!DNL Admin] 到以下内容访问Audience Manager工具 [!DNL URL]: [https://admin.demdex.com/](https://admin.demdex.com/)。
-1. 在下拉框中选择首选验证方法，然后单击 **[!UICONTROL Verify]**。
+1. 通过浏览至以下[!DNL URL]访问Audience Manager[!DNL Admin]工具：[https://admin.demdex.com/](https://admin.demdex.com/)。
+1. 在下拉框中选择首选验证方法，然后单击&#x200B;**[!UICONTROL Verify]**。
