@@ -15,11 +15,11 @@ ht-degree: 9%
 
 # 审核日志记录 {#audit-logging}
 
-在调 [!UICONTROL  Audit Logging] 试客户问题时，您可以首先使用它。
+调试客户问题时，首先使用[!UICONTROL  Audit Logging]。
 
 >[!NOTE]
 >
->功 [!UICONTROL Audit Logging] 能和文档当前正在开发中，可能会发生更改。 请记录您在（团队）中遇 [!DNL JIRA] 到的[!DNL UI] 任何问题。
+>[!UICONTROL Audit Logging]功能和文档当前正在开发中，可能会发生更改。 请记录您在[!DNL JIRA]（[!DNL UI]团队）中遇到的任何问题。
 
 ![审核记录视图](assets/audit-logging-img.png)
 
