@@ -15,15 +15,15 @@ ht-degree: 19%
 
 # 文件格式宏示例 {#file-format-macro-examples}
 
-宏用于创建出站文件模板 [!DNL FTP] 的示例。
+宏用于创建出站的示例， [!DNL FTP]文件模板。
 
 >[!NOTE]
 >
->在表中，粗 **体类型** (boldface type)用其相关输出标识每个宏。 对于格式示例，已添加&lt; >符号以帮助以可视方式分隔每个宏。
+>在表中，**粗体**&#x200B;类型使用其相关输出标识每个宏。 对于格式示例，已添加&lt; >符号以帮助以可视方式分隔每个宏。
 
-## 常见宏 {#common-macros}
+## 常见宏{#common-macros}
 
-这些宏可用于任何格式字段。 有关完整 [的列表和定义](../formats/file-formats.md) ，请参阅文件格式宏。
+这些宏可用于任何格式字段。 有关完整的列表和定义，请参见[文件格式宏](../formats/file-formats.md)。
 
 <table id="table_B5073597219B470298EE614902DACAE8"> 
  <thead> 
@@ -50,7 +50,7 @@ ht-degree: 19%
    <td colname="col2"> <p>格式: <code>&lt;SYNC_TYPE&gt;_&lt;ORDER_ID&gt;_&lt;DPID&gt;_ &lt;SYNC_MODE&gt;_&lt;TIMESTAMP&gt;.sync </code> </p> <p>Output（输出）: 
      <ul id="ul_F63D7B78AF1246639D6ED85C1621B17C"> 
       <li id="li_4D0D7B4D047345FE861FCBA2BD0408ED">完全: <code>ftp_215_888_ full_1449756724.sync </code> </li> 
-      <li id="li_23F4D1F6B2784E599EDA29AA457327E6">增量： <code>ftp_215_888_ iter_1449756724.sync </code> </li> 
+      <li id="li_23F4D1F6B2784E599EDA29AA457327E6">增量：<code>ftp_215_888_ iter_1449756724.sync </code> </li> 
      </ul> </p> </td> 
   </tr> 
   <tr> 
@@ -69,9 +69,9 @@ ht-degree: 19%
  </tbody> 
 </table>
 
-## 标题字段宏 {#header-field-macros}
+## 标题字段宏{#header-field-macros}
 
-宏仅用于标题字段。 有关完整 [的列表和定义](../formats/file-formats.md) ，请参阅文件格式宏。
+宏仅用于标题字段。 有关完整的列表和定义，请参见[文件格式宏](../formats/file-formats.md)。
 
 <table id="table_ABC31B3D660D47969E111EBC734D5BBC"> 
  <thead> 
@@ -88,9 +88,9 @@ ht-degree: 19%
  </tbody>
 </table>
 
-## 数据行宏 {#data-row-macros}
+## 数据行宏{#data-row-macros}
 
-宏仅用于标题字段。 有关完整 [的列表和定义](../formats/file-formats.md) ，请参阅文件格式宏。
+宏仅用于标题字段。 有关完整的列表和定义，请参见[文件格式宏](../formats/file-formats.md)。
 
 <table id="table_408C6DD2B9D54550B003EAC93562E64F"> 
  <thead> 
