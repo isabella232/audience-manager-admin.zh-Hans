@@ -1,6 +1,6 @@
 ---
-description: 默认情况下，所有公司都会与Adobe Media Optimizer(AMO)同步数据。 在管理员UI中，每个公司容器都有一个管理此流程的数据源。 此数据源为Adobe AMO(ID 411)。 单击选定容器的容器行(在“公司”选项卡下)可禁用此默认同步，或向AMO同步过程添加和删除其他数据源。
-seo-description: 默认情况下，所有公司都会与Adobe Media Optimizer(AMO)同步数据。 在管理员UI中，每个公司容器都有一个管理此流程的数据源。 此数据源为Adobe AMO(ID 411)。 单击选定容器的容器行(在“公司”选项卡下)可禁用此默认同步，或向AMO同步过程添加和删除其他数据源。
+description: 默认情况下，所有公司都与Adobe Media Optimizer(AMO)同步数据。 在管理员UI中，每个公司容器都有一个管理此流程的数据源。 此数据源为AdobeAMO(ID 411)。 单击选定容器的容器行(在公司选项卡下)，以禁用此默认同步，或向AMO同步过程添加和删除其他数据源。
+seo-description: 默认情况下，所有公司都与Adobe Media Optimizer(AMO)同步数据。 在管理员UI中，每个公司容器都有一个管理此流程的数据源。 此数据源为AdobeAMO(ID 411)。 单击选定容器的容器行(在公司选项卡下)，以禁用此默认同步，或向AMO同步过程添加和删除其他数据源。
 seo-title: ID 与 Media Optimizer 同步
 title: ID 与 Media Optimizer 同步
 uuid: b741dfa7-2947-4288-b214-79eccf18d53a
@@ -15,19 +15,19 @@ ht-degree: 6%
 
 # ID 与 Media Optimizer 同步{#id-syncing-with-media-optimizer}
 
-默认情况下，所有公司都将数据 [!DNL Adobe Media Optimizer] 与([!DNL AMO])同步。 在中， [!UICONTROL Admin UI]每个公司容器都有一个管理此过程的数据源。 此数据源 [!UICONTROL Adobe AMO] 为([!UICONTROL ID] 411)。 单击选定容器的公司行( [!UICONTROL Containers] 在选项卡下)，以禁用此默认同步，或向同步过程添加和删除其 [!DNL AMO] 他数据源。
+默认情况下，所有公司都与[!DNL Adobe Media Optimizer]([!DNL AMO])同步数据。 在[!UICONTROL Admin UI]中，每个公司容器都有一个管理此进程的数据源。 此数据源为[!UICONTROL Adobe AMO]([!UICONTROL ID] 411)。 单击选定公司的容器行（位于[!UICONTROL Containers]选项卡下），以禁用此默认同步，或向[!DNL AMO]同步过程添加和删除其他数据源。
 
 ![](assets/id-sync.png)
 
-## ID同步状态 {#id-sync-status}
+## ID同步状态{#id-sync-status}
 
 下表描述了数据源的同步状态。
 
 | 状态 | 描述 |
 |------ | -------- |
-| 关 | 从此容器删除所 [!UICONTROL Selected Data Sources] 有数据源以禁用ID同步 [!DNL AMO] |
-| 开启（无论ID服务版本如何） | 在以下情况下，无论ID服 [!DNL AMO] 务版本如何，数据源都会同步： <ul><li>列表中显示数据源。 [!UICONTROL Selected Data Sources]</li><li>未 [!DNL AMO] 选中 *该复选框* 。</li></ul> |
-| 开启（无论ID服务版本如何） | 在以下情况下，数据 [!DNL AMO] 源将与ID服务版本2.0（或更高版本）同步： <ul><li>列表中显示数据源。 [!UICONTROL Selected Data Sources]</li><li>此 [!DNL AMO] 复选框 *已选* 中。</li></ul> |
+| 关 | 从此容器的[!UICONTROL Selected Data Sources]中删除所有数据源以禁用与[!DNL AMO]的ID同步 |
+| 开启（无论ID服务版本如何） | 在以下情况下，无论ID服务版本如何，数据源都与[!DNL AMO]同步： <ul><li>数据源显示在[!UICONTROL Selected Data Sources]列表中。</li><li>[!DNL AMO]复选框&#x200B;*未选中。*</li></ul> |
+| 开启（无论ID服务版本如何） | 在以下情况下，数据源将与ID服务版本2.0（或更高版本）的[!DNL AMO]同步： <ul><li>数据源显示在[!UICONTROL Selected Data Sources]列表中。</li><li>选中[!DNL AMO]复选框&#x200B;**。</li></ul> |
 
 >[!MORELIKETHIS]
 >
