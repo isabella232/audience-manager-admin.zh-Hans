@@ -15,9 +15,9 @@ ht-degree: 17%
 
 # HTTP 格式宏示例{#http-format-macro-examples}
 
-一些常用宏组合 [!DNL HTTP] 的示例。
+一些常用[!DNL HTTP]宏组合的示例。
 
-有关宏 [的列表及其定义](../formats/web-formats.md) ，请参阅HTTP格式宏。
+有关宏的列表及其定义，请参见[HTTP格式宏](../formats/web-formats.md)。
 
 <table id="table_D5FAC5D056ED49D79FA883197EF8F42E"> 
  <thead> 
@@ -138,7 +138,7 @@ ht-degree: 17%
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code>&lt;if(user.segments &amp;&amp; user.removedSegments)&gt;&lt;COMMA&gt;&lt;endif&gt;</code> </p> </td> 
-   <td colname="col2"> <p>如果字段不为空， <code>segments</code> 请打 <code>removedSegments</code> 印逗号。 当连接段和删除段的列表时，此条件可用于POST请求。 </p> </td> 
+   <td colname="col2"> <p>如果字段<code>segments</code>和<code>removedSegments</code>不为空，则打印逗号。 当为区段和删除的区段连接POST时，此条件可用于列表请求。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
