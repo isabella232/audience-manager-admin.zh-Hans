@@ -15,9 +15,9 @@ ht-degree: 3%
 
 # HTTP 格式宏 {#http-format-macros}
 
-列表可用于创建数据文件 [!DNL HTTP] 的宏。 [!DNL HTTP] 以格式发送 [!DNL JSON] 数据。
+列表可用于创建[!DNL HTTP]数据文件的宏。 [!DNL HTTP] 以格式发送 [!DNL JSON] 数据。
 
-有关列表 [和一些常用宏组合的示例](../formats/web-format-examples.md) ，请参阅HTTP格式宏示例。
+有关列表和一些常用宏组合的示例，请参阅[HTTP格式宏示例](../formats/web-format-examples.md)。
 
 <table id="table_72A72EA63C3643FB84B47A76CD2CC1CA"> 
  <thead> 
@@ -36,7 +36,7 @@ ht-degree: 3%
   <tr> 
    <td colname="col1"> <p> <code>DP_UUID</code> </p> </td> 
    <td colname="col2"> <p> <code>GET</code> </p> </td> 
-   <td colname="col3"> <p>数据合作伙伴唯一用户ID。 如果用户的ID已与Audience Manager设备ID同步，则此宏将返回您分配给用户 <span class="keyword"> 的 </span> ID。 </p> </td> 
+   <td colname="col3"> <p>数据合作伙伴唯一用户ID。 如果用户的ID已与<span class="keyword">Audience Manager</span>设备ID同步，则此宏将返回您分配给用户的ID。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code>DPID</code> </p> </td> 
@@ -51,7 +51,7 @@ ht-degree: 3%
   <tr> 
    <td colname="col1"> <p> <code>GENERATION_TIME</code> </p> </td> 
    <td colname="col2"> <p> <code>GET, POST</code> </p> </td> 
-   <td colname="col3"> <p>Unix UTC时间戳。 内部时间戳，表示通知AAM将S2S目标发 <span class="wintitle"> 布到我 </span> 们的合作伙伴的时间。 </p> </td> 
+   <td colname="col3"> <p>Unix UTC时间戳。 内部时间戳表示通知AAM将<span class="wintitle"> S2S </span>目标发布到我们的合作伙伴的时间。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code>IP</code> </p> </td> 
@@ -61,7 +61,7 @@ ht-degree: 3%
     <tr> 
    <td colname="col1"> <p> <code>MCID</code> </p> </td> 
    <td colname="col2"> <p> <code>GET</code> </p> </td> 
-   <td colname="col3"> <p>Experience Cloud ID. (MCID代表Marketing Cloud，它是Experience Cloud的旧名称) </p> </td> 
+   <td colname="col3"> <p>Experience Cloud ID. (MCID代表Marketing Cloud，即Experience Cloud的传统名称) </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code>NUM_REMOVED_SEGMENTS</code> </p> </td> 
@@ -91,7 +91,7 @@ ht-degree: 3%
   <tr> 
    <td colname="col1"> <p> <code>REGION_ID_LIST</code> </p> </td> 
    <td colname="col2"> <p> <code>GET</code> </p> </td> 
-   <td colname="col3"> <p>Audience Manager <a href="https://docs.adobe.com/help/en/audience-manager/user-guide/api-and-sdk-code/dcs/dcs-api-reference/dcs-regions.html"> DCS区域， </a> 活动源所在。</p> </td> 
+   <td colname="col3"> <p><a href="https://docs.adobe.com/help/en/audience-manager/user-guide/api-and-sdk-code/dcs/dcs-api-reference/dcs-regions.html">Audience ManagerDCS区域</a>,活动源。</p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code>REMOVED_SEGMENT_LIST</code> </p> </td> 
@@ -108,7 +108,7 @@ ht-degree: 3%
       <li id="li_D3509A2D379E4C1FB3BC1B5E7D45A916"> <code>newSegmentId</code> </li> 
       <li id="li_EA901C20EEEB4CFAA39A5E0E822D2394"> <code>status</code> </li> 
       <li id="li_6310E21F88CC4691980DD3C9D551409F"> <code>dateTime</code> </li> 
-     </ul> </p> <p>在数组中指定以下字段，如本例所示： </p> <p> <code>[&lt;REMOVED_SEGMENTS:{seg|&lt;OPEN_BRACKET&gt;"Mapping":&lt;seg.traitAlias&gt;,"Status:"&lt;seg.status&gt;, "Time":&lt;seg.dateTime&gt;,"LegacySegmentId":&lt;seg.LegacySegmentId&gt;, "NewSegmentId":&lt;seg.NewSegmentId&gt;&lt;CLOSE_BRACKET&gt;}; "separator=","&gt;]</code> </p> <p>另请参阅 <a href="../formats/web-format-examples.md#reference_98828E32B0964FF9AAC7C5400E88BA31"> HTTP格式宏示例 </a>。 </p> </td> 
+     </ul> </p> <p>在数组中指定以下字段，如本例所示： </p> <p> <code>[&lt;REMOVED_SEGMENTS:{seg|&lt;OPEN_BRACKET&gt;"Mapping":&lt;seg.traitAlias&gt;,"Status:"&lt;seg.status&gt;, "Time":&lt;seg.dateTime&gt;,"LegacySegmentId":&lt;seg.LegacySegmentId&gt;, "NewSegmentId":&lt;seg.NewSegmentId&gt;&lt;CLOSE_BRACKET&gt;}; "separator=","&gt;]</code> </p> <p>另请参阅<a href="../formats/web-format-examples.md#reference_98828E32B0964FF9AAC7C5400E88BA31"> HTTP格式宏示例</a>。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code>REMOVED_TIME_LIST</code> </p> </td> 
@@ -135,7 +135,7 @@ ht-degree: 3%
       <li id="li_4A81E3B715254549B9EADB983A2FC32B"> <code>newSegmentId</code> </li> 
       <li id="li_1F01A60829DF4C87879D94299E1D589C"> <code>status</code> </li> 
       <li id="li_E52F10CD5A04487D81A4B1750B0DC4E3"> <code>dateTime</code> </li> 
-     </ul> </p> <p>在数组中指定以下字段，如本例所示： </p> <p> <code>[&lt;SEGMENTS:{seg|&lt;OPEN_BRACKET&gt;"Mapping":&lt;seg.traitAlias&gt;,"Status:"&lt;seg.status&gt;, "Time":&lt;seg.dateTime&gt;,"LegacySegmentId":&lt;seg.LegacySegmentId&gt;, "NewSegmentId":&lt;seg.NewSegmentId&gt;&lt;CLOSE_BRACKET&gt;}; "separator=","&gt;]</code> </p> <p>另请参阅 <a href="../formats/web-format-examples.md#reference_98828E32B0964FF9AAC7C5400E88BA31"> HTTP格式宏示例 </a>。 </p> </td> 
+     </ul> </p> <p>在数组中指定以下字段，如本例所示： </p> <p> <code>[&lt;SEGMENTS:{seg|&lt;OPEN_BRACKET&gt;"Mapping":&lt;seg.traitAlias&gt;,"Status:"&lt;seg.status&gt;, "Time":&lt;seg.dateTime&gt;,"LegacySegmentId":&lt;seg.LegacySegmentId&gt;, "NewSegmentId":&lt;seg.NewSegmentId&gt;&lt;CLOSE_BRACKET&gt;}; "separator=","&gt;]</code> </p> <p>另请参阅<a href="../formats/web-format-examples.md#reference_98828E32B0964FF9AAC7C5400E88BA31"> HTTP格式宏示例</a>。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code>TIME_LIST</code> </p> </td> 
@@ -160,7 +160,7 @@ ht-degree: 3%
   <tr> 
    <td colname="col1"> <p> <code>USER_LIST</code> </p> </td> 
    <td colname="col2"> <p> <code>POST</code> </p> </td> 
-   <td colname="col3"> <p>列表 <span class="keyword"> Audience Manager </span> 用户ID。 您还可以返回包含以下内容的特定字段： </p> 
+   <td colname="col3"> <p><span class="keyword">列表</span>用户ID的Audience Manager。 您还可以返回包含以下内容的特定字段： </p> 
     <ul id="ul_B6857D809FDC46749B7E745BD8C45F8E"> 
      <li id="li_F31CD82D16ED41FD82518141D90B5B35"> <code>user.aamUuid</code> </li> 
      <li id="li_623FA758C84D4A2D9B25C7FBE90F62B7"> <code>user.dpUuid</code> </li> 
@@ -174,8 +174,9 @@ ht-degree: 3%
      <li><code>user.regionIds</code></li> 
     </ul> <p>指定以下字段，如本例所示： </p> <p> 
      <codeblock>
-       "AAM_UUID": "&lt;user.aamUuid&gt;" "DataPartner_UUID": "&lt;user.dpUuid&gt;" 
-     </codeblock> </p> <p>另请参 <a href="../formats/web-format-examples.md#reference_98828E32B0964FF9AAC7C5400E88BA31"> 阅HTTP格式宏示 </a> 例，以获得完整示例。 </p> </td> 
+       "AAM_UUID": "&lt;user.aamUuid&gt;" 
+"DataPartner_UUID": "&lt;user.dpUuid&gt;" 
+     </codeblock> </p> <p>有关完整示例，另请参阅<a href="../formats/web-format-examples.md#reference_98828E32B0964FF9AAC7C5400E88BA31"> HTTP格式宏示例</a>。 </p> </td> 
   </tr>
  </tbody>
 </table>
