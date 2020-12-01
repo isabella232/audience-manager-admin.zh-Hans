@@ -13,16 +13,16 @@ ht-degree: 11%
 ---
 
 
-# Assign a Portal User to a Tableau User {#assign-a-portal-user-to-tableau-user}
+# 将门户用户分配给表用户{#assign-a-portal-user-to-tableau-user}
 
 <!-- t_tabeau.xml -->
 
-使用该 [!UICONTROL Reporting] 页面使门户用户成为 [!DNL Tableau] 用户。 这样，用户就可以 [!DNL Tableau] 以Audience Manager视图报表。
+使用[!UICONTROL Reporting]页面可将门户用户变为[!DNL Tableau]用户。 这样，用户就可以以视图方式Audience Manager[!DNL Tableau]报告。
 
 1. 单击 **[!UICONTROL Reporting]** > **[!UICONTROL Assign Portal User to Tableau User]**.
 
    ![](assets/tableau.png)
 
-1. 要分配用户，请在所需的合作伙伴行中，在文本 [!DNL Tableau] 字段中键入用户名，然后单击文本字段外部的。
+1. 要分配用户，请在所需的合作伙伴行中，在文本字段中键入[!DNL Tableau]用户名，然后单击文本字段外部的。
 
 要删除用户签名，请在所需的合作伙伴行中，从文本字段中删除用户名，然后单击文本字段外部的。
