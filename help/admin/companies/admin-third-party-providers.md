@@ -17,10 +17,10 @@ ht-degree: 5%
 
 视图或编辑第三方数据提供者的容器和映射。 您还可以启用与不同数据提供者的共享。
 
-1. 单 **[!UICONTROL Companies]**&#x200B;击，然后找到并单击所需的公司以显示其 [!UICONTROL Profile] 页面。
+1. 单击&#x200B;**[!UICONTROL Companies]**，找到并单击所需的公司以显示其[!UICONTROL Profile]页。
 
-   使用 [!UICONTROL Search] 列表底部的框或分页控件找到所需的公司。 单击所需列的标题，可以按升序或降序对每列进行排序。
-1. Click the **[!UICONTROL Third Party Data Providers]** tab.
+   使用[!UICONTROL Search]框或列表底部的分页控件找到所需的公司。 单击所需列的标题，可以按升序或降序对每列进行排序。
+1. 单击&#x200B;**[!UICONTROL Third Party Data Providers]**&#x200B;选项卡。
 
    ![](assets/third_party_providers.png)
 
@@ -28,14 +28,14 @@ ht-degree: 5%
 
    ![步骤结果](assets/third_party_providers_edit.png)
 
-1. 选择 **[!UICONTROL Enable Sharing]** 以启用以下选项：
+1. 选择&#x200B;**[!UICONTROL Enable Sharing]**&#x200B;以启用以下选项：
 
    * **合作伙伴级别重叠：**
-   * **启用模型使用：** 允许此公司在创建算法模型时使用此数据提供程序。
+   * **模型使用已启** 用：允许此公司在创建算法模型时使用此数据提供程序。
 
    启用共享后，您可以从此数据提供者访问特征。
 
 1. （视情况而定）如果为此提供程序启用容器，则可以通过将所需容器从可用列表移到所选列表来为此数据提供程序选择容器。
 
-   您还可以从任务页面执 [行此](../companies/admin-manage-containers.md#task_61DB5CEECC5049DD8D059C642AC3F967) 容器。
-1. 如果 **[!UICONTROL Save]** 进行了更改，请单击。
+   您还可以从[任务](../companies/admin-manage-containers.md#task_61DB5CEECC5049DD8D059C642AC3F967)页执行此容器。
+1. 如果进行了更改，请单击&#x200B;**[!UICONTROL Save]**。
