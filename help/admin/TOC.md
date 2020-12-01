@@ -2,13 +2,13 @@
 product: audience-manager
 audience: admin
 user-guide-title: Audience Manager 管理指南
-breadcrumb-title: Admin Guide
+breadcrumb-title: Admin 指南
 breadcrumb-url: /docs/audience-manager-admin/admin-guide/admin-home.html
-user-guide-description: The Audience Manager Admin tool lets you add and configure companies, servers, reports, formats, and users. You can also view or edit your personal profile.
+user-guide-description: 借助 Audience Manager 管理工具，您可以添加和配置公司、服务器、报表、格式和用户。您还可以查看或编辑您的个人配置文件。
 translation-type: tm+mt
 source-git-commit: b855eba932bf68c7c71ece8fb3e51f93ed5cb402
 workflow-type: tm+mt
-source-wordcount: '154'
+source-wordcount: '181'
 ht-degree: 100%
 
 ---
