@@ -21,13 +21,13 @@ ht-degree: 7%
 
 >[!NOTE]
 >
->默认情况下，公司是使用一个容器创建的。 您可以在中的用户界面中为公司创建更多容器 **[!UICONTROL Tools > Tags]**。
+>默认情况下，公司是使用一个容器创建的。 您可以在&#x200B;**[!UICONTROL Tools > Tags]**&#x200B;的用户界面中为公司创建更多容器。
 
-1. 单 **[!UICONTROL Companies]**&#x200B;击，然后找到并单击所需的公司以显示其 [!UICONTROL Profile] 页面。
+1. 单击&#x200B;**[!UICONTROL Companies]**，找到并单击所需的公司以显示其[!UICONTROL Profile]页。
 
-   使用 [!UICONTROL Search] 列表底部的框或分页控件找到所需的公司。 单击所需列的标题，可以按升序或降序对每列进行排序。
+   使用[!UICONTROL Search]框或列表底部的分页控件找到所需的公司。 单击所需列的标题，可以按升序或降序对每列进行排序。
 
-1. Click the **[!UICONTROL Containers]** tab.
+1. 单击&#x200B;**[!UICONTROL Containers]**&#x200B;选项卡。
 
    ![](assets/containers.png)
 
@@ -35,11 +35,11 @@ ht-degree: 7%
 
    ![步骤结果](assets/containers_edit.png)
 
-1. 选择所需的数据源 **[!UICONTROL Available Data Sources]** ，然 **[!UICONTROL Selected Data Sources for This Container]** 后根据需要单击右箭头或左箭头，从列表和数据中移动数据源。
+1. 通过选择所需的数据源，然后根据需要单击右箭头或左箭头，从&#x200B;**[!UICONTROL Available Data Sources]**&#x200B;和&#x200B;**[!UICONTROL Selected Data Sources for This Container]**&#x200B;列表移动数据源。
 
-   您还可以从第三方数据提供 [商页面执行](../companies/admin-third-party-providers.md#task_E942DD674D794BA6B8EFD52FD866E689)此任务。
+   您还可以从[第三方数据提供者](../companies/admin-third-party-providers.md#task_E942DD674D794BA6B8EFD52FD866E689)页执行此任务。
 
-1. 如果 **[!UICONTROL Save]** 进行了更改，请单击。
+1. 如果进行了更改，请单击&#x200B;**[!UICONTROL Save]**。
 
 >[!MORELIKETHIS]
 >
