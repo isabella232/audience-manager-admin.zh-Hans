@@ -5,10 +5,10 @@ seo-title: 年文档更新
 title: 年文档更新
 uuid: 1c02dff5-8e3f-42bf-a50c-03b75e121ac7
 translation-type: tm+mt
-source-git-commit: e60aa0ac341d74454bfe00a4f56add3a9f9e281b
+source-git-commit: 87f89a8a229b221cdab217b8a6b96ccd958078ca
 workflow-type: tm+mt
-source-wordcount: '629'
-ht-degree: 100%
+source-wordcount: '632'
+ht-degree: 99%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 100%
 
 按日期显示《Audience Manager 管理指南》的所有更新（内容添加、删除和更正）。
 
-有关功能发布、增强和错误修复的信息，请参阅 [Experience Cloud 发行说明](https://marketing.adobe.com/resources/help/zh_CN/whatsnew/)。有关 Experience Cloud 的早期公告，请参阅[之前的发行说明](https://marketing.adobe.com/resources/help/zh_CN/whatsnew/c_legacy_releases.html)。有关 [!DNL Audience Manager documentation changes, see]，请参阅[文档更新](https://docs.adobe.com/content/help/zh-Hans/audience-manager/user-guide/documentation-updates/docs-2019.html)。
+有关功能发布、增强和错误修复的信息，请参阅 [Experience Cloud 发行说明](https://marketing.adobe.com/resources/help/zh_CN/whatsnew/)。有关 Experience Cloud 的早期公告，请参阅[之前的发行说明](https://marketing.adobe.com/resources/help/zh_CN/whatsnew/c_legacy_releases.html)。有关[!DNL Audience Manager]文档更改，请参阅[文档更新](https://docs.adobe.com/content/help/zh-Hans/audience-manager/user-guide/documentation-updates/docs-2019.html)。
 
 ## AAM 2019 年文档更新 {#aam-2019-docs-updates}
 
