@@ -4,14 +4,13 @@ seo-description: 按日期显示《Audience Manager 管理指南》的所有更�
 seo-title: 年文档更新
 title: 年文档更新
 uuid: 1c02dff5-8e3f-42bf-a50c-03b75e121ac7
-translation-type: tm+mt
-source-git-commit: 87f89a8a229b221cdab217b8a6b96ccd958078ca
+exl-id: 8221b4df-99c2-47d3-a2ea-186a701a2b20
+source-git-commit: 7767c20bf97ee5c602b60dc6c11a5cd2bf21835d
 workflow-type: tm+mt
 source-wordcount: '632'
 ht-degree: 99%
 
 ---
-
 
 # 文档更新 {#documentation-updates}
 
@@ -21,12 +20,10 @@ ht-degree: 99%
 
 ## AAM 2019 年文档更新 {#aam-2019-docs-updates}
 
-
 | 主题 | 描述 |
----------|----------|
+|--- |--- |
 | HTTP 格式宏 | 我们向 `USER_LIST` 宏添加了一个新宏 `REGION_ID_LIST` 以及三个新字段 `sda`、`sda` 和 `sda`。 |
 | HTTP 格式宏 | 我们添加了两个新宏：`ECID` 和 `MCID`。 |
-
 
 ## AAM 2018 年文档更新 {#aam-2018-docs-updates}
 
