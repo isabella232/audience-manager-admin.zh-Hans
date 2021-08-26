@@ -5,10 +5,10 @@ seo-title: Audience Manager Admin Home
 title: Audience Manager 管理主页
 uuid: 4534b622-4c8d-4c42-8019-1614faaba9d6
 exl-id: 27316802-9c98-41f5-af3e-edc11e572e29
-source-git-commit: 1f4dbf8f7b36e64c3015b98ef90b6726d0e7495a
+source-git-commit: 79415eba732c2a6d50f04124774664f788ccc78c
 workflow-type: tm+mt
-source-wordcount: '186'
-ht-degree: 94%
+source-wordcount: '182'
+ht-degree: 87%
 
 ---
 
@@ -30,8 +30,8 @@ ht-degree: 94%
      </ul> </p> </td> 
    <td colname="col2" valign="top"> <p class="head"><b>发行说明</b> </p> 
     <ul id="ul_1AA5CED5DA0F4B78B8BC4D74539E97EF"> 
-     <li id="li_1B636241BCC14468980CF415B15A875F">有关新增功能和修复，请参阅最新的 <a href="https://docs.adobe.com/content/help/zh-Hans/release-notes/experience-cloud/current.html" format="https" scope="external">Experience Cloud 发行说明</a>。 </li> 
-     <li id="li_6AD053625237446FB9B581772896F64F">关于早期公告，请参阅<a href="https://docs.adobe.com/content/help/en/release-notes/experience-cloud/current.html" format="https" scope="external">以前的发行说明</a>。 </li> 
+     <li id="li_1B636241BCC14468980CF415B15A875F">有关新增功能和修复，请参阅最新的 <a href="https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html" format="https" scope="external">Experience Cloud 发行说明</a>。 </li> 
+     <li id="li_6AD053625237446FB9B581772896F64F">关于早期公告，请参阅<a href="https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html" format="https" scope="external">以前的发行说明</a>。 </li> 
     </ul> <p class="head"> <b>Experience Cloud 资源</b> </p> 
     <ul id="ul_F8DE07F1ADBC411E894751F927BB1477"> 
      <li id="li_09B0F2E487CA4C55A723ACB5901C7B49"><a href="https://business.adobe.com/products/marketing-cloud/main.html" format="http" scope="external"> Adobe Experience Cloud</a> </li> 
