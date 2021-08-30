@@ -5,7 +5,7 @@ seo-title: Destination Setup Troubleshooting
 title: 目标设置疑难解答
 uuid: 04080fb9-6c7b-4de7-960e-54482be2de83
 exl-id: 53c72b1a-f1a1-4266-a595-e4821c2640b2
-source-git-commit: 1f4dbf8f7b36e64c3015b98ef90b6726d0e7495a
+source-git-commit: c7c5da62b32f6a56152e1c09a965facfc601cade
 workflow-type: tm+mt
 source-wordcount: '1316'
 ht-degree: 4%
@@ -74,7 +74,7 @@ ht-degree: 4%
 
 ### 文件拆分大小太大
 
-将文件外界定到目标时，您可以按文件块拆分较大的出站文件。 确保单个文件块不超过10 GB。 另请参阅[出站数据文件名：语法和示例](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implemenation-integration-guides/receiving-audience-data/batch-outbound-data-transfers/outbound-file-name-contents.html?lang=en)。
+将文件外界定到目标时，您可以按文件块拆分较大的出站文件。 确保单个文件块不超过10 GB。 另请参阅[出站数据文件名：语法和示例](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/receiving-audience-data/batch-outbound-data-transfers/outbound-file-name-contents.html?lang=en)。
 
 
 ## 如何设置目标以在出站数据文件中导出Experience CloudID、客户ID或Audience ManagerID {#set-up-destinations-export}

@@ -1,38 +1,37 @@
 ---
-description: 使用Audience Manager管理工具中的“服务器”页可创建新的HTTP服务器或编辑现有服务器。
-seo-description: 使用Audience Manager管理工具中的“服务器”页可创建新的HTTP服务器或编辑现有服务器。
-seo-title: 创建或编辑 HTTP 服务器
+description: 使用“Audience Manager管理工具”中的“服务器”页面创建新的HTTP服务器或编辑现有服务器。
+seo-description: Use the Servers page in the Audience Manager Admin tool to create a new HTTP server or to edit an existing server.
+seo-title: Create or Edit an HTTP Server
 title: 创建或编辑 HTTP 服务器
 uuid: 1ef0e751-e239-4dc6-a4f6-73cc05686807
-translation-type: tm+mt
-source-git-commit: d518ba4011f203a7d450ce76d8c1924f7d73a815
+exl-id: 8b3dfb1e-2dee-4a05-835e-3c32643336bc
+source-git-commit: c7c5da62b32f6a56152e1c09a965facfc601cade
 workflow-type: tm+mt
-source-wordcount: '329'
-ht-degree: 7%
+source-wordcount: '302'
+ht-degree: 6%
 
 ---
 
-
-# 创建或编辑 HTTP 服务器{#create-or-edit-an-http-server}
+# 创建或编辑 HTTP 服务器 {#create-or-edit-an-http-server}
 
 使用Audience Manager管理工具中的[!UICONTROL Servers]页面创建新的HTTP服务器或编辑现有服务器。
 
 >[!NOTE]
 >
->您必须具有[!UICONTROL DEXADMIN]角色才能创建新服务器或编辑现有服务器。
+>要创建新服务器或编辑现有服务器，您必须具有[!UICONTROL DEXADMIN]角色。
 
-1. 要创建新服务器，请转至&#x200B;**[!UICONTROL Servers]** > **[!UICONTROL Create Server]**。 要编辑现有服务器，请在&#x200B;**[!UICONTROL Label]**&#x200B;列中单击所需的服务器。
+1. 要创建新服务器，请转到&#x200B;**[!UICONTROL Servers]** > **[!UICONTROL Create Server]**。 要编辑现有服务器，请在&#x200B;**[!UICONTROL Label]**&#x200B;列中单击所需的服务器。
 1. 为此服务器指定所需的标签。
 1. 从&#x200B;**[!UICONTROL Protocol]**&#x200B;下拉列表中，选择所需的协议：[!DNL HTTP]。
 1. 填写以下字段：
 
    * **[!UICONTROL Domain]:** 为此服务器指定所需的域（主机）。
-   * **[!UICONTROL Port]：指** 定此服务器的所需端口。将显示每个加密类型的默认端口。 如有必要，可更改默认端口
-   * **[!UICONTROL Maximum Users Per Request]：指** 定此服务器允许的每个请求的最大用户数。
-   * **[!UICONTROL URL Prefix]：指** 定要 [!DNL URL] 用于此服务器的前缀。
-   * **[!UICONTROL Authentication URL]:** 指定此 [!UICONTROL Authentication URL] 服务 `HTTP` 器。
-   * **[!UICONTROL Authentication]：指** 定所需的身份验证方法： **[!UICONTROL None]**、 **[!UICONTROL Username/Password]**&#x200B;或 **[!UICONTROL SSH Key]**。
-   * **[!UICONTROL HTTP Signature Header]:** 客户提 [!DNL HTTP] 供的包含签名密钥的标 [!DNL HTTP] 头名称。默认值为[!UICONTROL X-Signature]，如下例所示：
+   * **[!UICONTROL Port]:** 为此服务器指定所需的端口。每种加密类型均显示默认端口。 如有必要，您可以更改默认端口
+   * **[!UICONTROL Maximum Users Per Request]:** 指定此服务器允许的每个请求的最大用户数。
+   * **[!UICONTROL URL Prefix]:** 指定 [!DNL URL] 此服务器的前缀。
+   * **[!UICONTROL Authentication URL]:** 指定此 [!UICONTROL Authentication URL] 服务器 `HTTP` 的。
+   * **[!UICONTROL Authentication]:** 指定所需的身份验证方法： **[!UICONTROL None]**、  **[!UICONTROL Username/Password]**&#x200B;或 **[!UICONTROL SSH Key]**。
+   * **[!UICONTROL HTTP Signature Header]:** 由客户提 [!DNL HTTP] 供的包含签名键的标 [!DNL HTTP] 头名称。默认值为[!UICONTROL X-Signature]，如以下示例所示：
 
       ```
       * Connected to partner.website.com (127.0.0.1) port 80 (#0)
@@ -45,13 +44,13 @@ ht-degree: 7%
       POST message content
       ```
 
-   * **[!UICONTROL HTTP Signature Key]:** 客户提供的用于 [!DNL HTTP] 签署请求的密钥。
+   * **[!UICONTROL HTTP Signature Key]:** 客户提供的用于 [!DNL HTTP] 对请求进行签名的键。
    * **[!UICONTROL Show Signature Key]:** 切换是否在浏览器中显示签名。
-   * **[!UICONTROL HTTP Signature Encryption Method]:** 指定用于加密签名的方法。除非客户另有选择，否则请使用[!UICONTROL SHA1]。
+   * **[!UICONTROL HTTP Signature Encryption Method]:** 指定加密签名的方法。除非客户另有选择，否则请使用[!UICONTROL SHA1]。
 
    >[!NOTE]
    >
-   >如果要为合作伙伴启用[OAuth 2.0身份验证进行实时数据传输](https://docs.adobe.com/help/en/audience-manager/user-guide/implemenation-integration-guides/receiving-audience-data/real-time-outbound-transfers/oauth-in-outbound-transfers.html)，请填写下表中的字段。 *斜体*&#x200B;中的字段需要完全按表中的方式填写。
+   >如果要为合作伙伴的实时数据传输启用[OAuth 2.0身份验证](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/receiving-audience-data/real-time-outbound-transfers/oauth-in-outbound-transfers.html?lang=en)，请按照下表中的字段填写。 *斜体*&#x200B;中的字段需要完全按照表中的方式填写。
 
    | 名称 | 值 |
    |---|---|
@@ -69,4 +68,4 @@ ht-degree: 7%
    | [!UICONTROL HTTP Signature Key] | [!UICONTROL Leave this field blank] |
    | [!UICONTROL HTTP Signature Encryption Method] | [!UICONTROL None] |
 
-1. 如果要创建新服务器，请单击&#x200B;**[!UICONTROL Create]**；如果要编辑现有服务器，请单击&#x200B;**[!UICONTROL Update]**。
+1. 如果要创建新服务器，请单击&#x200B;**[!UICONTROL Create]**；如果要编辑现有服务器，则单击&#x200B;**[!UICONTROL Update]**。

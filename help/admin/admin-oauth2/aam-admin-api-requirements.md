@@ -5,9 +5,9 @@ seo-title: API Requirements and Recommendations
 title: API 要求和建议
 uuid: eba9cf92-f0c8-4394-8532-0de9a2e7b103
 exl-id: 24f90732-31a6-436d-862b-e6871d279c7a
-source-git-commit: 79415eba732c2a6d50f04124774664f788ccc78c
+source-git-commit: c7c5da62b32f6a56152e1c09a965facfc601cade
 workflow-type: tm+mt
-source-wordcount: '340'
+source-wordcount: '342'
 ht-degree: 2%
 
 ---
@@ -36,4 +36,4 @@ ht-degree: 2%
 * 识别正在调用[!DNL API]的服务（例如，来自使用我们的[!DNL API]的客户端应用程序的调用或进行批量更改的调用）。
 * 提供对[!DNL API]s的无中断访问。与特定员工关联的帐户在离开公司时可能会被删除。 这将阻止您的客户使用可用的[!DNL API]代码。 未与特定员工绑定的通用帐户有助于避免此问题。
 
-例如，对于此类帐户，假设您的客户希望使用[批量管理工具](https://experienceleague.adobe.com/docs/audience-manager/user-guide/reference/bult-management-tools/bulk-management-intro.html)一次更改多个区段。 要实现此目的，他们需要[!DNL API]访问权限。 创建一个非特定的[!DNL API]用户帐户，该帐户具有适当的凭据、密钥和密钥，以便进行[!DNL API]调用，而不是向特定用户添加权限。 如果客户端自行开发使用[!DNL Audience Manager] [!DNL API]的应用程序，则此功能也非常有用。
+例如，对于此类帐户，假设您的客户希望使用[批量管理工具](https://experienceleague.adobe.com/docs/audience-manager/user-guide/reference/bulk-management-tools/bulk-management-intro.html?lang=en)一次更改多个区段。 要实现此目的，他们需要[!DNL API]访问权限。 创建一个非特定的[!DNL API]用户帐户，该帐户具有适当的凭据、密钥和密钥，以便进行[!DNL API]调用，而不是向特定用户添加权限。 如果客户端自行开发使用[!DNL Audience Manager] [!DNL API]的应用程序，则此功能也非常有用。
