@@ -1,23 +1,22 @@
 ---
-description: 列表可用于创建HTTP数据文件的宏。 HTTP以JSON格式发送数据。
-seo-description: 列表可用于创建HTTP数据文件的宏。 HTTP以JSON格式发送数据。
-seo-title: HTTP 格式宏
+description: 列出可用于创建HTTP数据文件的宏。 HTTP以JSON格式发送数据。
+seo-description: Lists the macros you can use to create HTTP data files. HTTP sends data in a JSON format.
+seo-title: HTTP Format Macros
 title: HTTP 格式宏
 uuid: 91021f60-75d0-4b1d-86ca-91c9dadafac1
-translation-type: tm+mt
-source-git-commit: 1a547e421346a6bf281e2b3ff3a0bcb5cf1d78df
+exl-id: 80ed24ac-1b84-4c1b-966f-039b587ea899
+source-git-commit: cfc3396843592d80b017471a0e88cf335a5f81e0
 workflow-type: tm+mt
-source-wordcount: '409'
-ht-degree: 3%
+source-wordcount: '389'
+ht-degree: 2%
 
 ---
 
-
 # HTTP 格式宏 {#http-format-macros}
 
-列表可用于创建[!DNL HTTP]数据文件的宏。 [!DNL HTTP] 以格式发送 [!DNL JSON] 数据。
+列出可用于创建[!DNL HTTP]数据文件的宏。 [!DNL HTTP] 以格式发送 [!DNL JSON] 数据。
 
-有关列表和一些常用宏组合的示例，请参阅[HTTP格式宏示例](../formats/web-format-examples.md)。
+有关常用宏组合的列表和示例，请参阅[HTTP格式宏示例](../formats/web-format-examples.md)。
 
 <table id="table_72A72EA63C3643FB84B47A76CD2CC1CA"> 
  <thead> 
@@ -36,7 +35,7 @@ ht-degree: 3%
   <tr> 
    <td colname="col1"> <p> <code>DP_UUID</code> </p> </td> 
    <td colname="col2"> <p> <code>GET</code> </p> </td> 
-   <td colname="col3"> <p>数据合作伙伴唯一用户ID。 如果用户的ID已与<span class="keyword">Audience Manager</span>设备ID同步，则此宏将返回您分配给用户的ID。 </p> </td> 
+   <td colname="col3"> <p>数据合作伙伴独特用户ID。 如果用户的ID已与<span class="keyword">Audience Manager</span>设备ID同步，则此宏会返回您分配给该用户的ID。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code>DPID</code> </p> </td> 
@@ -51,7 +50,7 @@ ht-degree: 3%
   <tr> 
    <td colname="col1"> <p> <code>GENERATION_TIME</code> </p> </td> 
    <td colname="col2"> <p> <code>GET, POST</code> </p> </td> 
-   <td colname="col3"> <p>Unix UTC时间戳。 内部时间戳表示通知AAM将<span class="wintitle"> S2S </span>目标发布到我们的合作伙伴的时间。 </p> </td> 
+   <td colname="col3"> <p>Unix UTC时间戳。 内部时间戳，表示通知AAM将<span class="wintitle"> S2S </span>目标发布到我们的合作伙伴的时间。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code>IP</code> </p> </td> 
@@ -61,7 +60,7 @@ ht-degree: 3%
     <tr> 
    <td colname="col1"> <p> <code>MCID</code> </p> </td> 
    <td colname="col2"> <p> <code>GET</code> </p> </td> 
-   <td colname="col3"> <p>Experience Cloud ID. (MCID代表Marketing Cloud，即Experience Cloud的传统名称) </p> </td> 
+   <td colname="col3"> <p>Experience Cloud ID. (MCID表示Marketing Cloud，即Experience Cloud的旧名称) </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code>NUM_REMOVED_SEGMENTS</code> </p> </td> 
@@ -86,39 +85,39 @@ ht-degree: 3%
   <tr> 
    <td colname="col1"> <p> <code>RANDOM</code> </p> </td> 
    <td colname="col2"> <p> <code>GET</code> </p> </td> 
-   <td colname="col3"> <p>生成随机数。 </p> </td> 
+   <td colname="col3"> <p>生成一个随机数。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code>REGION_ID_LIST</code> </p> </td> 
    <td colname="col2"> <p> <code>GET</code> </p> </td> 
-   <td colname="col3"> <p><a href="https://docs.adobe.com/help/en/audience-manager/user-guide/api-and-sdk-code/dcs/dcs-api-reference/dcs-regions.html">Audience ManagerDCS区域</a>,活动源。</p> </td> 
+   <td colname="col3"> <p><a href="https://experienceleague.adobe.com/docs/audience-manager/user-guide/api-and-sdk-code/dcs/dcs-api-reference/dcs-regions.html?lang=en">Audience ManagerDCS区域</a>，活动源自此区域。</p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code>REMOVED_SEGMENT_LIST</code> </p> </td> 
    <td colname="col2"> <p> <code>GET</code> </p> </td> 
-   <td colname="col3"> <p>返回用户不再具备资格的区段ID列表（如果有）。 </p> </td> 
+   <td colname="col3"> <p>返回用户不再符合条件的区段ID列表（如果有）。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code>REMOVED_SEGMENTS</code> </p> </td> 
    <td colname="col2"> <p> <code>GET</code> </p> </td> 
-   <td colname="col3"> <p>用户不再具备资格的区段列表。 您还可以返回包含以下内容的特定区段字段： </p> <p> 
+   <td colname="col3"> <p>用户不再符合条件的区段列表。 您还可以返回特定区段字段，这些字段包括： </p> <p> 
      <ul id="ul_29B83093A7624A908F0C06F2A248981A"> 
       <li id="li_57A60A54F5D44E38ACB4E2648095F246"> <code>traitAlias</code> </li> 
       <li id="li_4079F646493F40DBA0CE75D662A69454"> <code>legacySegmentId (formerly segmentId)</code> </li> 
       <li id="li_D3509A2D379E4C1FB3BC1B5E7D45A916"> <code>newSegmentId</code> </li> 
       <li id="li_EA901C20EEEB4CFAA39A5E0E822D2394"> <code>status</code> </li> 
       <li id="li_6310E21F88CC4691980DD3C9D551409F"> <code>dateTime</code> </li> 
-     </ul> </p> <p>在数组中指定以下字段，如本例所示： </p> <p> <code>[&lt;REMOVED_SEGMENTS:{seg|&lt;OPEN_BRACKET&gt;"Mapping":&lt;seg.traitAlias&gt;,"Status:"&lt;seg.status&gt;, "Time":&lt;seg.dateTime&gt;,"LegacySegmentId":&lt;seg.LegacySegmentId&gt;, "NewSegmentId":&lt;seg.NewSegmentId&gt;&lt;CLOSE_BRACKET&gt;}; "separator=","&gt;]</code> </p> <p>另请参阅<a href="../formats/web-format-examples.md#reference_98828E32B0964FF9AAC7C5400E88BA31"> HTTP格式宏示例</a>。 </p> </td> 
+     </ul> </p> <p>在数组中指定这些字段，如以下示例所示： </p> <p> <code>[&lt;REMOVED_SEGMENTS:{seg|&lt;OPEN_BRACKET&gt;"Mapping":&lt;seg.traitAlias&gt;,"Status:"&lt;seg.status&gt;, "Time":&lt;seg.dateTime&gt;,"LegacySegmentId":&lt;seg.LegacySegmentId&gt;, "NewSegmentId":&lt;seg.NewSegmentId&gt;&lt;CLOSE_BRACKET&gt;}; "separator=","&gt;]</code> </p> <p>另请参阅<a href="../formats/web-format-examples.md#reference_98828E32B0964FF9AAC7C5400E88BA31"> HTTP格式宏示例</a>。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code>REMOVED_TIME_LIST</code> </p> </td> 
    <td colname="col2"> <p> <code>GET</code> </p> </td> 
-   <td colname="col3"> 用户不再具备资格的区段的最后实现列表。 </td> 
+   <td colname="col3"> 用户不再符合条件的区段的最后实现的列表。 </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code>REMOVED_TRAITALIAS_LIST</code> </p> </td> 
    <td colname="col2"> <p> <code>GET</code> </p> </td> 
-   <td colname="col3"> <p>用户不再具备资格的区段别名列表。 </p> </td> 
+   <td colname="col3"> <p>用户不再符合条件的区段的别名列表。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code>SEGMENT_LIST</code> </p> </td> 
@@ -128,14 +127,14 @@ ht-degree: 3%
   <tr> 
    <td colname="col1"> <p> <code>SEGMENTS</code> </p> </td> 
    <td colname="col2"> <p> <code>GET</code> </p> </td> 
-   <td colname="col3"> <p>列表用户符合的区段。 您还可以返回包含以下内容的特定区段字段： </p> <p> 
+   <td colname="col3"> <p>用户符合条件的区段列表。 您还可以返回特定区段字段，这些字段包括： </p> <p> 
      <ul id="ul_9209683A8E0A4B8081E5EFA4602F743F"> 
       <li id="li_D796526C1C9E45BEA891D619539888C4"> <code>traitAlias</code> </li> 
       <li id="li_BF12E010E1AD432C84605B9817F209DD"> <code>legacySegmentId (formerly segmentId)</code> </li> 
       <li id="li_4A81E3B715254549B9EADB983A2FC32B"> <code>newSegmentId</code> </li> 
       <li id="li_1F01A60829DF4C87879D94299E1D589C"> <code>status</code> </li> 
       <li id="li_E52F10CD5A04487D81A4B1750B0DC4E3"> <code>dateTime</code> </li> 
-     </ul> </p> <p>在数组中指定以下字段，如本例所示： </p> <p> <code>[&lt;SEGMENTS:{seg|&lt;OPEN_BRACKET&gt;"Mapping":&lt;seg.traitAlias&gt;,"Status:"&lt;seg.status&gt;, "Time":&lt;seg.dateTime&gt;,"LegacySegmentId":&lt;seg.LegacySegmentId&gt;, "NewSegmentId":&lt;seg.NewSegmentId&gt;&lt;CLOSE_BRACKET&gt;}; "separator=","&gt;]</code> </p> <p>另请参阅<a href="../formats/web-format-examples.md#reference_98828E32B0964FF9AAC7C5400E88BA31"> HTTP格式宏示例</a>。 </p> </td> 
+     </ul> </p> <p>在数组中指定这些字段，如以下示例所示： </p> <p> <code>[&lt;SEGMENTS:{seg|&lt;OPEN_BRACKET&gt;"Mapping":&lt;seg.traitAlias&gt;,"Status:"&lt;seg.status&gt;, "Time":&lt;seg.dateTime&gt;,"LegacySegmentId":&lt;seg.LegacySegmentId&gt;, "NewSegmentId":&lt;seg.NewSegmentId&gt;&lt;CLOSE_BRACKET&gt;}; "separator=","&gt;]</code> </p> <p>另请参阅<a href="../formats/web-format-examples.md#reference_98828E32B0964FF9AAC7C5400E88BA31"> HTTP格式宏示例</a>。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code>TIME_LIST</code> </p> </td> 
@@ -145,7 +144,7 @@ ht-degree: 3%
   <tr> 
    <td colname="col1"> <p> <code>TIMESTAMP</code> </p> </td> 
    <td colname="col2"> <p> <code>GET</code> </p> </td> 
-   <td colname="col3"> <p>Unix、UTC时间戳。 代表该分段的最后实现。 </p> </td> 
+   <td colname="col3"> <p>Unix、UTC时间戳。 表示该区段的最后一次实现。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code>TRAITALIAS_LIST</code> </p> </td> 
@@ -160,7 +159,7 @@ ht-degree: 3%
   <tr> 
    <td colname="col1"> <p> <code>USER_LIST</code> </p> </td> 
    <td colname="col2"> <p> <code>POST</code> </p> </td> 
-   <td colname="col3"> <p><span class="keyword">列表</span>用户ID的Audience Manager。 您还可以返回包含以下内容的特定字段： </p> 
+   <td colname="col3"> <p><span class="keyword">Audience Manager</span>用户ID的列表。 您还可以返回包含以下内容的特定字段： </p> 
     <ul id="ul_B6857D809FDC46749B7E745BD8C45F8E"> 
      <li id="li_F31CD82D16ED41FD82518141D90B5B35"> <code>user.aamUuid</code> </li> 
      <li id="li_623FA758C84D4A2D9B25C7FBE90F62B7"> <code>user.dpUuid</code> </li> 
@@ -172,11 +171,11 @@ ht-degree: 3%
      <li id="li_B598A5AED28C4304972E51DBD4E480D8"> <code>user.timestamp</code> </li> 
      <li id="li_8424D540282F449CA5AF6B3CC343DDCB"> <code>user.random</code> </li>
      <li><code>user.regionIds</code></li> 
-    </ul> <p>指定以下字段，如本例所示： </p> <p> 
+    </ul> <p>指定以下字段，如此示例所示： </p> <p> 
      <codeblock>
        "AAM_UUID": "&lt;user.aamUuid&gt;" 
 "DataPartner_UUID": "&lt;user.dpUuid&gt;" 
-     </codeblock> </p> <p>有关完整示例，另请参阅<a href="../formats/web-format-examples.md#reference_98828E32B0964FF9AAC7C5400E88BA31"> HTTP格式宏示例</a>。 </p> </td> 
+     </codeblock> </p> <p>另请参阅<a href="../formats/web-format-examples.md#reference_98828E32B0964FF9AAC7C5400E88BA31"> HTTP格式宏示例</a>以获取完整示例。 </p> </td> 
   </tr>
  </tbody>
 </table>
