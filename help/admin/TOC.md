@@ -3,10 +3,8 @@ product: audience manager
 audience: admin
 user-guide-title: Audience Manager 管理指南
 breadcrumb-title: Admin 指南
-breadcrumb-url: /docs/audience-manager-admin/admin-guide/admin-home.html
 user-guide-description: 借助 Audience Manager 管理工具，您可以添加和配置公司、服务器、报表、格式和用户。您还可以查看或编辑您的个人配置文件。
-translation-type: tm+mt
-source-git-commit: fb3eb6ee29332a84f2f389d4c6a2b6e2b7d0fced
+source-git-commit: 5074b73a4ffa9be305cfd753cb4a1efdfeeb9be3
 workflow-type: tm+mt
 source-wordcount: '181'
 ht-degree: 100%
@@ -14,7 +12,7 @@ ht-degree: 100%
 ---
 
 
-# Audience Manager 管理指南{#admin-guide}
+# Audience Manager 管理指南 {#admin-guide}
 
 + [Audience Manager 管理主页](admin-home.md)
 + [登录到 Audience Manager 管理](admin-login.md)
@@ -56,4 +54,4 @@ ht-degree: 100%
 + [我的配置文件](admin-my-profile.md)
 + [目标设置疑难解答](admin-destination-troubleshooting.md)
 + [测试版环境](admin-beta-environment.md)
-+ [文档更新](admin-doc-updates.md)
++ [年文档更新](admin-doc-updates.md)
