@@ -1,14 +1,20 @@
 ---
-description: 为了防止意外将文件和数据载入其他合作伙伴或客户拥有的目标数据源，Audience Manager在合作伙伴ID(PID)和其他合作伙伴拥有的数据源之间添加了映射要求。
+description: In order to prevent accidental file and data onboarding into target data sources owned by other partners or customers, Audience Manager has added a mapping requirement between partner ID (PID) and the data sources owned by other partners.
 title: 管理第二方数据的载入访问
-source-git-commit: 6c88979f876909bc32b5238605cb4a352e327a00
+exl-id: 03bec978-dd31-41cc-a3aa-d67fbb98963c
+source-git-commit: cc04863272005964cfbf1bb2319cc0dd86863680
 workflow-type: tm+mt
-source-wordcount: '217'
+source-wordcount: '283'
 ht-degree: 0%
 
 ---
 
 # 管理第二方数据的入门访问 {#manage-onboarding-access-for-second-party-data}
+
+>[!IMPORTANT]
+>
+> The audience for this page is Adobe-internal employees. 如果您是Audience Manager客户，请求按照本页所述进行第二方数据源映射，请联系客户关怀团队或您的技术客户经理。
+> 请注意，请求现有数据共享关系的映射时不需要使用。 将数据载入属于您的PID的目标数据源时，也不需要进行映射。
 
 为了防止意外将文件和数据载入到其他合作伙伴拥有的目标数据源中，Audience Manager在合作伙伴ID(PID)和其他合作伙伴拥有的数据源(DPID)之间添加了映射要求。 有关PID和DPID的更多信息，请参阅 [Audience ManagerID索引](https://experienceleague.adobe.com/docs/audience-manager/user-guide/reference/ids-in-aam.html).
 
