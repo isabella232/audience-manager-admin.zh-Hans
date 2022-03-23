@@ -5,16 +5,20 @@ seo-title: Audience Manager Admin Home
 title: Audience Manager 管理主页
 uuid: 4534b622-4c8d-4c42-8019-1614faaba9d6
 exl-id: 27316802-9c98-41f5-af3e-edc11e572e29
-source-git-commit: 79415eba732c2a6d50f04124774664f788ccc78c
+source-git-commit: e12731066834df18b44e6737fe8c1264d316f7fd
 workflow-type: tm+mt
-source-wordcount: '182'
-ht-degree: 87%
+source-wordcount: '212'
+ht-degree: 75%
 
 ---
 
 # Audience Manager 管理主页 {#audience-manager-admin-home}
 
 借助 Audience Manager 管理工具，您可以添加和配置公司、服务器、报表、格式和用户。您还可以查看或编辑您的个人配置文件。
+
+>[!IMPORTANT]
+>
+> 此文档存储库的受众是Adobe内部员工。 如果您是Audience Manager客户，请导航到 [Audience Manager指南概述](https://experienceleague.adobe.com/docs/audience-manager/user-guide/aam-home.html).
 
 <table id="table_882B0982144442F79328A4FA45BD5C7E" frame="none"> 
  <tbody> 
