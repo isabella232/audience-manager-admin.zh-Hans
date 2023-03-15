@@ -2,7 +2,7 @@
 product: audience manager
 audience: admin
 user-guide-title: Audience Manager 管理指南
-breadcrumb-title: Admin 指南
+breadcrumb-title: 管理指南
 user-guide-description: 借助 Audience Manager 管理工具，您可以添加和配置公司、服务器、报表、格式和用户。您还可以查看或编辑您的个人配置文件。
 source-git-commit: 25a00b3e877eab3136e70e924d87d011f44ba52c
 workflow-type: tm+mt
