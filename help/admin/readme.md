@@ -1,54 +1,53 @@
 ---
 source-git-commit: b76aa4a35a5216aabd60d07352a7c4bd2b3e6e32
 workflow-type: tm+mt
-translation-type: tm+mt
 source-wordcount: '329'
 ht-degree: 2%
 
 ---
 # 说明
 
-**注意：本页（或任何readme.md页面）将不会发布到面向客户的文档**
+**注意：此頁面（或任何readme.md頁面）不會發佈至面對客戶的檔案**
 
-## 目录
+## 目錄
 
-+ `TOC.md` 在用户指南的根目录中，可以组织本解决方案指南中包含的主题。
-+ 每个用户指南都有其唯一的`TOC.md`，您可以根据需要对所有页面／主题进行排序。
-+ 所有用户指南的第一页为`overview.md`。
++ `TOC.md` 位於使用手冊的根目錄，提供使用手冊中所包含適用於此解決方案的主題組織。
++ 每個使用手冊都有各自的獨特 `TOC.md`，您可視需要排序所有頁面/主題。
++ 所有使用手冊的第一頁都是 `overview.md`.
 
 ## 用户指南
 
-+ 用户指南的简介称为`overview.md`
-+ 用户指南中的每个主题都有自己的不同目录。
-   + 如果指南中有一个主题名为&#x200B;*Implementation*，则相应的目录为`/implementation`
-+ 所有图像资源都存储在用户指南的根目录`/assets`中。
-   + `/assets`目录中的所有映像都将本地化。
-   + `/no-localize`目录中的所有图像都不会本地化（这很令人吃惊！）。 这可用于确保在本地版本中不会不必要地复制特定资产。
++ 我們將使用手冊的簡介稱為 `overview.md`
++ 使用手冊中的每個主題都有自己的獨特目錄。
+   + 如果指南中有一個名為的主題 *實作*，對應的目錄為 `/implementation`
++ 所有影像資產都儲存在 `/assets` 位於使用手冊的根目錄。
+   + 中的所有影像 `/assets` 目錄將會本地化。
+   + 中的任何影像 `/no-localize` 目錄將不會翻譯（令人驚訝！）。 這可用來確保在loc版本中特定資產不會不必要地重現。
 
-## 用户指南级元数据
+## 使用手冊層級中繼資料
 
-+ 描述用户指南的元数据存储在`TOC.md`中。 这包括：
-   + product —— 产品／功能的名称。
-   + 云——此产品所属的云。
-   + 受众-指南针对的受众或原型。
-   + 用户指南——用户指南的名称。
++ 說明使用手冊的中繼資料會儲存在 `TOC.md`. 这包括：
+   + product — 產品/功能的名稱。
+   + cloud — 此產品所屬的雲端。
+   + 對象 — 手冊所針對的對象或原型。
+   + 使用手冊 — 使用手冊的名稱。
 
-## 页面级元数据
+## 頁面層級中繼資料
 
-+ 描述文档所需的元数据作为每个单独页面的一部分进行存储。 这包括：
-   + title —— 页面的标题。
-   + description —— 页面说明。
-   + seo-title - seo替代标题。
-   + seo-description —— 用于SEO的替代标题。
-   + short-title -（可选字段）。
-   + 索引——是／否——页面将按Adobe的搜索平台进行索引。
-   + 翻译——是／否——此页面是否将本地化。
-   + version —— 主要用于AEM和活动，用于表示产品的版本。
-   + private-feature-pack —— 主要用于AEM。
-   + beta —— 此产品是beta版本吗？
-   + 重定向——可用于根据需要为新页面创建引用。
-   + doc-type:参考（默认）/疑难解答／开发人员／教程/ kb /白皮书。
++ 描述檔案所需的中繼資料會儲存為每個個別頁面的一部分。 这包括：
+   + title — 頁面標題。
+   + description — 頁面說明。
+   + seo-title - seo替代標題。
+   + seo-description - SEO用途的替代標題。
+   + short-title - （選擇性欄位）。
+   + index - yes / no — 頁面是否會由Adobe的搜尋平台建立索引。
+   + 翻譯 — 是/否 — 此頁面是否會翻譯。
+   + 版本 — 主要用於AEM和Campaign，代表產品的版本。
+   + private-feature-pack — 主要用於AEM。
+   + beta — 此產品是否為beta版？
+   + 重新導向 — 必要時可用於建立新頁面的參照。
+   + doc-type：參考（預設） /疑難排解/開發人員/教學課程/ kb /白皮書。
 
 ## 更多信息
 
-有关发布说明、风格指南、示例和其他资源的详细信息，请访问[协作文档回购](https://git.corp.adobe.com/AdobeDocs/collaborative-doc-instructions)
+如需更多發佈指示、風格指南、範例和其他資源，請造訪 [合作檔案存放庫](https://git.corp.adobe.com/AdobeDocs/collaborative-doc-instructions)

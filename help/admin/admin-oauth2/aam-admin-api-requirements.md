@@ -1,5 +1,5 @@
 ---
-description: 您应当鼓励客户在使用Audience ManagerAPI时注意的事项。
+description: 建議客戶在使用Audience ManagerAPI時注意的事項。
 seo-description: Things you should encourage your clients to be aware of when they're working with the Audience Manager APIs.
 seo-title: API Requirements and Recommendations
 title: API 要求和建议
@@ -14,26 +14,26 @@ ht-degree: 2%
 
 # API 要求和建议 {#api-requirements-and-recommendations}
 
-您应当鼓励客户在使用Audience Manager[!DNL API]时注意的事项。
+您應鼓勵客戶在使用Audience Manager時注意的事項 [!DNL API]s.
 
 ## 要求 {#requirements}
 
-使用[!DNL Audience Manager] [!DNL API]代码时，请注意以下事项：
+使用時，請注意下列事項 [!DNL Audience Manager] [!DNL API] 程式碼：
 
-* **请求参数：** 除非另有指定，否则所有请求参数都是必需的。
-* **[!DNL JSON]内容类型：** 在代 `content-type: application/json` ** `accept: application/json` 码中指定和。
+* **要求引數：** 除非另有指定，否則所有要求引數都是必要的。
+* **[!DNL JSON]內容型別：** 指定 `content-type: application/json` *和* `accept: application/json` 在您的程式碼中。
 
-* **请求和响应：** 将请求作为格式正确的对象 [!DNL JSON] 发送。[!DNL Audience Manager] 以格式化的数 [!DNL JSON] 据做出响应。服务器响应可以包含请求的数据、状态代码或两者。
+* **要求與回應：** 以正確格式化的形式傳送請求 [!DNL JSON] 物件。 [!DNL Audience Manager] 回應 [!DNL JSON] 格式化資料。 伺服器回應可包含要求的資料、狀態代碼或兩者。
 
-* **访问：** 您的 [!DNL Audience Manager] 顾问将为您提供客户端ID和用于发出请求的 [!DNL API] 密钥。
+* **存取：** 您的 [!DNL Audience Manager] 顧問將為您提供使用者端ID和金鑰，讓您建立 [!DNL API] 要求。
 
-* **文档和代码示例：** 斜体 ** 文本表示您在制作或接收数据时提供或传递的 [!DNL API] 变量。将&#x200B;*斜体*&#x200B;文本替换为您自己的代码、参数或其他必需信息。
+* **檔案和程式碼範例：** 文字輸入 *斜體* 代表您在進行或接收時提供或傳入的變數 [!DNL API] 資料。 Replace *斜體* 包含您自己的程式碼、引數或其他必要資訊的文字。
 
-## Recommendations:创建通用API用户 {#recommendations}
+## Recommendations：建立通用API使用者 {#recommendations}
 
-我们建议创建一个单独的技术用户帐户，以便与Audience Manager[!DNL API]s一起使用。这是一个通用帐户，它未绑定到客户组织中的特定用户或与其关联。 此类型的[!DNL API]用户帐户有助于完成以下两项任务：
+建議您建立個別的技術使用者帳戶來使用Audience Manager [!DNL API]s.這是一般帳戶，與您使用者端組織內的特定使用者沒有關係或沒有關聯。 此型別 [!DNL API] 使用者帳戶有助於完成2件事：
 
-* 识别正在调用[!DNL API]的服务（例如，来自使用我们的[!DNL API]的客户端应用程序的调用或进行批量更改的调用）。
-* 提供对[!DNL API]s的无中断访问。与特定员工关联的帐户在离开公司时可能会被删除。 这将阻止您的客户使用可用的[!DNL API]代码。 未与特定员工绑定的通用帐户有助于避免此问题。
+* 識別呼叫的服務 [!DNL API] (例如，從使用我們的應用程式的使用者端應用程式呼叫 [!DNL API]或進行大量變更時)。
+* 提供對的不中斷存取 [!DNL API]s.與特定員工繫結的帳戶可能會在員工離開公司時刪除。 這會導致您的客戶無法使用可用的 [!DNL API] 程式碼。 未與特定員工繫結的一般帳戶有助於避免此問題。
 
-例如，对于此类帐户，假设您的客户希望使用[批量管理工具](https://experienceleague.adobe.com/docs/audience-manager/user-guide/reference/bulk-management-tools/bulk-management-intro.html?lang=en)一次更改多个区段。 要实现此目的，他们需要[!DNL API]访问权限。 创建一个非特定的[!DNL API]用户帐户，该帐户具有适当的凭据、密钥和密钥，以便进行[!DNL API]调用，而不是向特定用户添加权限。 如果客户端自行开发使用[!DNL Audience Manager] [!DNL API]的应用程序，则此功能也非常有用。
+作為此類帳戶的範例或使用案例，假設您的客戶希望使用一次變更許多區段 [大量管理工具](https://experienceleague.adobe.com/docs/audience-manager/user-guide/reference/bulk-management-tools/bulk-management-intro.html?lang=en). 為此，他們需要 [!DNL API] 存取。 與其將許可權新增至特定使用者，不如建立非特定、 [!DNL API] 具有適當認證、金鑰和密碼的使用者帳戶 [!DNL API] 呼叫。 如果使用者端開發自己的應用程式，且這些應用程式使用 [!DNL Audience Manager] [!DNL API]s.

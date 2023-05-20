@@ -1,28 +1,27 @@
 ---
-description: 使用报告页面将门户用户变为Tableau用户。 这允许用户以Audience Manager视图Tableau报表。
-seo-description: 使用报告页面将门户用户变为Tableau用户。 这允许用户以Audience Manager视图Tableau报表。
-seo-title: 将门户用户分配给 Tableau 用户
+description: 使用「報表」頁面，將入口網站使用者設為Tableau使用者。 這可讓使用者以Audience Manager檢視Tableau報表。
+seo-description: Use the Reporting page to make a portal user a Tableau user. This lets users view Tableau reports in Audience Manager.
+seo-title: Assign a Portal User to Tableau User
 title: 将门户用户分配给 Tableau 用户
 uuid: aa2cc6b5-6467-48ba-9367-0be6fde6a883
-translation-type: tm+mt
-source-git-commit: be661580da839ce6332a0ad827dec08e854abe54
+exl-id: c384dfc7-3441-4e79-8757-4e6c8216d316
+source-git-commit: f5d74995f0664cf63e68b46f1f3c608f34df0e80
 workflow-type: tm+mt
-source-wordcount: '128'
-ht-degree: 11%
+source-wordcount: '100'
+ht-degree: 8%
 
 ---
 
-
-# 将门户用户分配给表用户{#assign-a-portal-user-to-tableau-user}
+# 將入口網站使用者指派給Tableau使用者 {#assign-a-portal-user-to-tableau-user}
 
 <!-- t_tabeau.xml -->
 
-使用[!UICONTROL Reporting]页面可将门户用户变为[!DNL Tableau]用户。 这样，用户就可以以视图方式Audience Manager[!DNL Tableau]报告。
+使用 [!UICONTROL Reporting] 讓入口網站使用者成為 [!DNL Tableau] 使用者。 這可讓使用者檢視 [!DNL Tableau] 以Audience Manager顯示報表。
 
 1. 单击 **[!UICONTROL Reporting]** > **[!UICONTROL Assign Portal User to Tableau User]**.
 
    ![](assets/tableau.png)
 
-1. 要分配用户，请在所需的合作伙伴行中，在文本字段中键入[!DNL Tableau]用户名，然后单击文本字段外部的。
+1. 若要指派使用者，請在所需的合作夥伴列中，輸入 [!DNL Tableau] 使用者名稱在文字欄位中，然後按一下文字欄位外部。
 
-要删除用户签名，请在所需的合作伙伴行中，从文本字段中删除用户名，然后单击文本字段外部的。
+若要刪除使用者指定，請在所需的合作夥伴列中，從文字欄位中移除使用者名稱，然後按一下文字欄位外部。

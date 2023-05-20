@@ -18,7 +18,7 @@ ht-degree: 75%
 
 >[!IMPORTANT]
 >
-> 此文档存储库的受众是Adobe内部员工。 如果您是Audience Manager客户，请导航到 [Audience Manager指南概述](https://experienceleague.adobe.com/docs/audience-manager/user-guide/aam-home.html).
+> 本檔案存放庫的對象是Adobe內部員工。 如果您是Audience Manager客戶，請導覽至 [Audience Manager指南概觀](https://experienceleague.adobe.com/docs/audience-manager/user-guide/aam-home.html).
 
 <table id="table_882B0982144442F79328A4FA45BD5C7E" frame="none"> 
  <tbody> 
@@ -42,7 +42,7 @@ ht-degree: 75%
      <li id="li_B89CEA08B4954C6ABA2BBDA803A88427"> <a href="https://helpx.adobe.com/support/social.html" format="http" scope="external"> Adobe Social 社区</a> </li> 
      <li id="li_4F16686C311743C484013D84971EEBD3"> <a href="https://helpx.adobe.com/cn/learning.html?promoid=KAUDK" format="https" scope="external"> Adobe 培训和教程</a> </li> 
      <li id="li_32581A0A26CB4F43833D607221154188"><a href="https://www.adobe.io" format="https" scope="external"> 开发人员连接</a> </li> 
-     <li id="li_49B2B95B1B4540C9A967F7DDBB4EB457"><a href="https://helpx.adobe.com/support/experience-cloud.html" format="https" scope="external"> 产品文档主页</a> </li> 
+     <li id="li_49B2B95B1B4540C9A967F7DDBB4EB457"><a href="https://helpx.adobe.com/cn/support/experience-cloud.html" format="https" scope="external"> 产品文档主页</a> </li> 
     </ul> </td> 
   </tr> 
  </tbody> 

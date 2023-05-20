@@ -1,33 +1,32 @@
 ---
-description: 视图或编辑第一方数据提供者的容器和映射。
-seo-description: 视图或编辑第一方数据提供者的容器和映射。
-seo-title: 管理第一方数据提供商
+description: 檢視或編輯第一方資料提供者的容器和對應。
+seo-description: View or edit containers and mappings for first-party data providers.
+seo-title: Manage First Party Data Providers
 title: 管理第一方数据提供商
 uuid: 222890cb-2ebd-4e16-a516-51000891ed34
-translation-type: tm+mt
-source-git-commit: 71bf4cec222428686c1eab0998f66887db06da68
+exl-id: c1ac1d7c-84d4-44f0-a3b1-105078947dbc
+source-git-commit: f5d74995f0664cf63e68b46f1f3c608f34df0e80
 workflow-type: tm+mt
-source-wordcount: '137'
-ht-degree: 10%
+source-wordcount: '122'
+ht-degree: 8%
 
 ---
 
-
 # 管理第一方数据提供商 {#manage-first-party-data-providers}
 
-视图或编辑第一方数据提供者的容器和映射。
+檢視或編輯第一方資料提供者的容器和對應。
 
 <!-- t_first_party_providers.xml -->
 
-1. 单击&#x200B;**[!UICONTROL Companies]**，找到并单击所需的公司以显示其[!UICONTROL Profile]页。 使用[!UICONTROL Search]框或列表底部的分页控件找到所需的公司。 单击所需列的标题，可以按升序或降序对每列进行排序。
+1. 按一下 **[!UICONTROL Companies]**，然後找到並按一下所需的公司以顯示其 [!UICONTROL Profile] 頁面。 使用 [!UICONTROL Search] 方塊或清單底部的分頁控制項，以尋找所需的公司。 您可以按一下所需欄的標頭，以遞增或遞減順序排序每個欄。
 
-1. 单击&#x200B;**[!UICONTROL First Party Data Providers]**&#x200B;选项卡。
+1. 按一下 **[!UICONTROL First Party Data Providers]** 標籤。
 
    ![](assets/first_party_providers.png)
 
-1. 单击数据提供程序的行以视图或编辑该数据提供程序的容器和映射。
+1. 按一下資料提供者的列，即可檢視或編輯該資料提供者的容器和對應。
 
-   ![步骤结果](assets/first_party_providers_edit.png)
+   ![步驟結果](assets/first_party_providers_edit.png)
 
-1. 选择所需容器，然后根据需要单击右箭头或左箭头，从&#x200B;**[!UICONTROL Available Containers]**&#x200B;和&#x200B;**[!UICONTROL Selected Containers for This Data Provider]**&#x200B;列表中移动容器。
-1. 如果进行了更改，请单击&#x200B;**[!UICONTROL Save]**。
+1. 將容器從 **[!UICONTROL Available Containers]** 和 **[!UICONTROL Selected Containers for This Data Provider]** 清單，方法是選取所需的容器，然後視需要按一下向右或向左箭頭。
+1. 按一下 **[!UICONTROL Save]** 若您進行變更。

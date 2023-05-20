@@ -1,28 +1,27 @@
 ---
-description: 一些常用HTTP宏组合的示例。
-seo-description: 一些常用HTTP宏组合的示例。
-seo-title: HTTP 格式宏示例
+description: 一些常用的HTTP巨集組合範例。
+seo-description: Examples of some commonly used HTTP macro combinations.
+seo-title: HTTP Format Macro Examples
 title: HTTP 格式宏示例
 uuid: a81a2e2a-de7e-4b6a-8771-fcfa0dc74570
-translation-type: tm+mt
-source-git-commit: 4c6d1752ff10d2d3d12cab88e823f25f5ef4fcd0
+exl-id: 1f8ccbf3-241d-4bd9-8c35-cf68b12d2713
+source-git-commit: f5d74995f0664cf63e68b46f1f3c608f34df0e80
 workflow-type: tm+mt
-source-wordcount: '78'
-ht-degree: 17%
+source-wordcount: '66'
+ht-degree: 15%
 
 ---
 
+# HTTP 格式宏示例 {#http-format-macro-examples}
 
-# HTTP 格式宏示例{#http-format-macro-examples}
+一些常用範例 [!DNL HTTP] 巨集組合。
 
-一些常用[!DNL HTTP]宏组合的示例。
-
-有关宏的列表及其定义，请参见[HTTP格式宏](../formats/web-formats.md)。
+請參閱 [http格式巨集](../formats/web-formats.md) 以取得巨集及其定義的清單。
 
 <table id="table_D5FAC5D056ED49D79FA883197EF8F42E"> 
  <thead> 
   <tr> 
-   <th colname="col1" class="entry"> 宏示例 </th> 
+   <th colname="col1" class="entry"> 巨集範例 </th> 
    <th colname="col2" class="entry"> Output Format（输出格式） </th> 
   </tr> 
  </thead>
@@ -138,7 +137,7 @@ ht-degree: 17%
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code>&lt;if(user.segments &amp;&amp; user.removedSegments)&gt;&lt;COMMA&gt;&lt;endif&gt;</code> </p> </td> 
-   <td colname="col2"> <p>如果字段<code>segments</code>和<code>removedSegments</code>不为空，则打印逗号。 当为区段和删除的区段连接POST时，此条件可用于列表请求。 </p> </td> 
+   <td colname="col2"> <p>如果欄位，列印逗號 <code>segments</code> 和 <code>removedSegments</code> 不是空的。 在串連區段和已移除區段的清單時，此條件可用於POST請求。 </p> </td> 
   </tr> 
  </tbody> 
 </table>

@@ -1,27 +1,26 @@
 ---
-description: '在调试客户问题时，首先使用审核日志记录。 '
-seo-description: '在调试客户问题时，首先使用审核日志记录。 '
-seo-title: 审核日志记录
+description: 在偵錯客戶問題時，請先使用稽核記錄。
+seo-description: Use Audit Logging as a first place to go when debugging customer issues.
+seo-title: Audit Logging
 title: 审核日志记录
 uuid: null
-translation-type: tm+mt
-source-git-commit: 53bf192d17e107f5f696712e578921abaa52b9ab
+exl-id: ff68f90f-b521-4560-9bf6-a7a6a588adf9
+source-git-commit: f5d74995f0664cf63e68b46f1f3c608f34df0e80
 workflow-type: tm+mt
-source-wordcount: '66'
-ht-degree: 9%
+source-wordcount: '51'
+ht-degree: 7%
 
 ---
 
-
 # 审核日志记录 {#audit-logging}
 
-调试客户问题时，首先使用[!UICONTROL  Audit Logging]。
+使用 [!UICONTROL  Audit Logging] 做為客戶問題偵錯時的首選位置。
 
 >[!NOTE]
 >
->[!UICONTROL Audit Logging]功能和文档当前正在开发中，可能会发生更改。 请记录您在[!DNL JIRA]（[!DNL UI]团队）中遇到的任何问题。
+>此 [!UICONTROL Audit Logging] 功能與檔案目前正在開發中，可能會有變動。 請記錄您在中遇到的任何問題 [!DNL JIRA] ([!DNL UI] 團隊)。
 
-![审核记录视图](assets/audit-logging-img.png)
+![稽核記錄檢視](assets/audit-logging-img.png)
 
 <!-- 
 
