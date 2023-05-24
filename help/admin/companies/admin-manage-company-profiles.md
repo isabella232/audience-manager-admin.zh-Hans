@@ -1,5 +1,5 @@
 ---
-description: 使用Audience Manager管理工具中的「公司」頁面來建立新公司。
+description: 使用“Audience Manager管理”工具中的“公司”页可创建新公司。
 seo-description: Use the Companies page in the Audience Manager Admin tool to create a new company.
 seo-title: Create a Company Profile
 title: 创建公司配置文件
@@ -14,111 +14,111 @@ ht-degree: 4%
 
 # 创建公司配置文件 {#create-a-company-profile}
 
-使用 [!UICONTROL Companies] 頁面(在Audience Manager管理工具中)來建立新公司。
+使用 [!UICONTROL Companies] Audience Manager页面，以创建新公司。
 
 <!-- t_create_company.xml -->
 
 >[!NOTE]
 >
->您必須擁有 **[!UICONTROL DEXADMIN]** 角色以建立新公司。
+>您必须拥有 **[!UICONTROL DEXADMIN]** 角色以创建新公司。
 
 1. 单击 **[!UICONTROL Companies]** > **[!UICONTROL Add Company]**.
 1. 填写以下字段：
 
-   * **[!UICONTROL Name]**：（必要）指定公司名稱。
-   * **[!UICONTROL Description]**：（必要）提供公司的描述性資訊，例如產業或其全名。
-   * **[!UICONTROL Subdomain]**：（必要）指定公司的子網域。 您輸入的文字會顯示為事件呼叫的子網域。 無法變更此設定。 它必須是字串 [!DNL URL] — 有效字元。
+   * **[!UICONTROL Name]**：（必需）指定公司的名称。
+   * **[!UICONTROL Description]**：（必需）提供公司的描述性信息，如行业或其全名。
+   * **[!UICONTROL Subdomain]**：（必需）指定公司的子域。 您输入的文本将显示为事件调用的子域。 无法更改。 它必须是字符串 [!DNL URL] — 有效字符。
 
-      例如，如果貴公司名為 [!DNL AcmeCorp]，子網域會是 [!DNL acmecorp].
+      例如，如果贵公司名为 [!DNL AcmeCorp]，则子域将为 [!DNL acmecorp].
 
-      Audience Manager會將子網域用於 [!UICONTROL Data Collection Server] (DCS)。 在上一個範例中，如果您的公司已滿 [!DNL URL] 在 [!UICONTROL DCS] 會是 [!DNL acmecorp.demdex.net].
+      Audience Manager将子域用于 [!UICONTROL Data Collection Server] (DCS)。 在上一个示例中，如果您的公司已满 [!DNL URL] 在 [!UICONTROL DCS] 将为 [!DNL acmecorp.demdex.net].
 
-   * **[!UICONTROL Lifecyle]**：指定公司需要的階段：
-      * **[!UICONTROL Active]**：指定該公司將成為作用中Audience Manager使用者端。 一個 [!UICONTROL Active] 帳戶是指付費客戶，不僅是為了諮詢，也是為了提供Audience ManagerSKU。
-      * **[!UICONTROL Demo]**：指定公司僅供示範用途。 系統會自動偽造報表資料。
-      * **[!UICONTROL Prospect]**：指定該公司是潛在的Audience Manager客戶，例如可免費使用的公司 [!DNL POC] 或銷售示範的帳戶設定。
-      * **[!UICONTROL Test]**：指定公司僅供內部測試之用。
-   * **[!UICONTROL Account Types]**：指定此公司的完整帳戶型別集。 沒有帳戶型別與任何其他型別互斥。
-      * **[!UICONTROL Full AAM]**：指定公司將擁有完整的Adobe Audience Manager帳戶，且使用者將擁有登入存取權。
-      * **[!UICONTROL MMP]**：指定公司已啟用使用 [!UICONTROL Master Marketing Profile] ([!UICONTROL MMP])功能。 此 [!UICONTROL MMP] 允許使用在Experience Cloud間共用對象 [!UICONTROL Experience Cloud ID] ([!DNL MCID])指派給每位訪客，然後由Audience Manager使用。 如果您選取此帳戶型別， [!UICONTROL Experience Cloud ID Service] 也會自動選取。
+   * **[!UICONTROL Lifecyle]**：为公司指定所需的阶段：
+      * **[!UICONTROL Active]**：指定公司将是一个活动的Audience Manager客户端。 An [!UICONTROL Active] account是指付费客户，不仅是为了咨询，也是为了提供Audience ManagerSKU。
+      * **[!UICONTROL Demo]**：指定公司仅用于演示目的。 报表数据将被自动伪造。
+      * **[!UICONTROL Prospect]**：指定该公司是潜在的Audience Manager客户，例如获得免费服务的公司 [!DNL POC] 或销售演示的帐户设置。
+      * **[!UICONTROL Test]**：指定公司仅用于内部测试。
+   * **[!UICONTROL Account Types]**：指定此公司的完整帐户类型集。 没有帐户类型与任何其他类型互斥。
+      * **[!UICONTROL Full AAM]**：指定公司将拥有完整的Adobe Audience Manager帐户，并且用户将拥有登录访问权限。
+      * **[!UICONTROL MMP]**：指定已允许公司使用 [!UICONTROL Master Marketing Profile] ([!UICONTROL MMP])功能。 此 [!UICONTROL MMP] 允许使用在Experience Cloud间共享受众 [!UICONTROL Experience Cloud ID] ([!DNL MCID])，这些资源会分配给每位访客，然后由Audience Manager使用。 如果选择此帐户类型，则 [!UICONTROL Experience Cloud ID Service] 也会自动选中。
 
-         如需詳細資訊，請參閱 [Experience Cloud對象](https://experienceleague.adobe.com/docs/core-services/interface/services/audiences/audience-library.html?lang=en).
-   * **[!UICONTROL Data Source]**：指定該公司為Audience Manager內的第三方資料提供者。
-   * **[!UICONTROL Targeting Partner]**：指定公司作為Audience Manager客戶的目標平台。
-   * **[!UICONTROL Visitor ID Service]**：指定公司已啟用使用 [!UICONTROL Experience Cloud Visitor ID Service].
+         有关更多信息，请参阅 [Experience Cloud受众](https://experienceleague.adobe.com/docs/core-services/interface/services/audiences/audience-library.html?lang=en).
+   * **[!UICONTROL Data Source]**：指定该公司是Audience Manager中的第三方数据提供商。
+   * **[!UICONTROL Targeting Partner]**：指定公司用作Audience Manager客户的定位平台。
+   * **[!UICONTROL Visitor ID Service]**：指定已允许公司使用 [!UICONTROL Experience Cloud Visitor ID Service].
 
-      此 [!UICONTROL Experience Cloud Visitor ID Service] 提供跨Experience Cloud解決方案的通用訪客ID。 如需詳細資訊，請參閱 [Experience Cloud訪客ID服務使用手冊](https://experienceleague.adobe.com/docs/id-service/using/intro/overview.html?lang=en).
+      此 [!UICONTROL Experience Cloud Visitor ID Service] 提供了跨Experience Cloud解决方案的通用访客ID。 欲了解更多信息，请参见 [Experience Cloud访客ID服务用户指南](https://experienceleague.adobe.com/docs/id-service/using/intro/overview.html?lang=en).
 
-   * **[!UICONTROL Agency]**：指定公司將擁有 [!UICONTROL Agency] 帳戶。
+   * **[!UICONTROL Agency]**：指定公司将拥有 [!UICONTROL Agency] 帐户。
 
 
 
-1. 单击 **[!UICONTROL Create]**. 繼續下列中的指示： [編輯公司設定檔](../companies/admin-manage-company-profiles.md#edit-company-profile).
+1. 单击 **[!UICONTROL Create]**. 按照中的说明继续操作 [编辑公司配置文件](../companies/admin-manage-company-profiles.md#edit-company-profile).
 
-   ![步驟結果](assets/add_company.png)
+   ![步骤结果](assets/add_company.png)
 
 ## 编辑公司配置文件 {#edit-company-profile}
 
-編輯公司的設定檔，包括其名稱、說明、子網域、生命週期等。
+编辑公司的配置文件，包括其名称、描述、子域、生命周期等。
 
 <!-- t_edit_company_profile.xml -->
 
-1. 按一下 **[!UICONTROL Companies]**，然後找到並按一下所需的公司以顯示其 [!UICONTROL Profile] 頁面。
+1. 单击 **[!UICONTROL Companies]**，然后找到并单击所需的公司以显示其 [!UICONTROL Profile] 页面。
 
-   使用 [!UICONTROL Search] 方塊或清單底部的分頁控制項，以尋找所需的公司。 您可以按一下所需欄的標頭，以遞增或遞減順序排序每個欄。
+   使用 [!UICONTROL Search] 框或列表底部的分页控件以查找所需的公司。 您可以通过单击所需列的标题，按升序或降序对每个列进行排序。
 
-   ![步驟結果](assets/profile_company.png)
+   ![步骤结果](assets/profile_company.png)
 
 1. 根据需要编辑字段：
 
-   * **[!UICONTROL Name]**：編輯公司名稱。 此為必填欄位。
-   * **[!UICONTROL Description]**：編輯公司的說明。 此為必填欄位。
-   * **[!UICONTROL Subdomain]**：（必要）指定公司的子網域。 您輸入的文字會顯示為事件呼叫的子網域。 無法變更此設定。 它必須是字串 [!DNL URL] — 有效字元。
+   * **[!UICONTROL Name]**：编辑公司的名称。 这是必填字段。
+   * **[!UICONTROL Description]**：编辑公司的描述。 这是必填字段。
+   * **[!UICONTROL Subdomain]**：（必需）指定公司的子域。 您输入的文本将显示为事件调用的子域。 无法更改。 它必须是字符串 [!DNL URL] — 有效字符。
 
-      例如，如果貴公司名為 [!DNL AcmeCorp]，子網域會是 [!DNL acmecorp].
+      例如，如果贵公司名为 [!DNL AcmeCorp]，则子域将为 [!DNL acmecorp].
 
-      Audience Manager會將子網域用於 [!UICONTROL Data Collection Server] (DCS)。 在上一個範例中，如果您的公司已滿 [!DNL URL] 在 [!UICONTROL DCS] 會是 [!DNL acmecorp.demdex.net].
+      Audience Manager将子域用于 [!UICONTROL Data Collection Server] (DCS)。 在上一个示例中，如果您的公司已满 [!DNL URL] 在 [!UICONTROL DCS] 将为 [!DNL acmecorp.demdex.net].
 
-   * **[!UICONTROL imsOrgld]**： ([!UICONTROL Identity Management System Organization ID])此ID可讓您將您的公司與Adobe Experience Cloud連線。
-   * **[!UICONTROL Lifecyle]**：指定公司需要的階段：
-      * **[!UICONTROL Active]**：指定該公司將成為作用中Audience Manager使用者端。 有效帳戶是指付款客戶，不僅是為了諮詢，也是為了提供Audience ManagerSKU。
-      * **[!UICONTROL Demo]**：指定公司僅供示範用途。 系統會自動偽造報表資料。
-      * **[!UICONTROL Prospect]**：指定該公司是潛在的Audience Manager客戶，例如可免費使用的公司 [!DNL POC] 或銷售示範的帳戶設定。
-      * **[!UICONTROL Test]**：指定公司僅供內部測試之用。
-   * **[!UICONTROL Account Types]**：指定此公司的完整帳戶型別集。 沒有帳戶型別與任何其他型別互斥。
-      * **[!UICONTROL Full AAM]**：指定公司將擁有完整的Adobe Audience Manager帳戶，且使用者將擁有登入存取權。
-      * **[!UICONTROL MMP]**：指定公司已啟用使用主要行銷設定檔([!UICONTROL MMP])功能。
+   * **[!UICONTROL imsOrgld]**：([!UICONTROL Identity Management System Organization ID])通过此ID，您可以将公司与Adobe Experience Cloud连接。
+   * **[!UICONTROL Lifecyle]**：为公司指定所需的阶段：
+      * **[!UICONTROL Active]**：指定公司将是一个活动的Audience Manager客户端。 活动帐户是指付费客户，不仅是为了咨询，而且也是为了提供Audience ManagerSKU。
+      * **[!UICONTROL Demo]**：指定公司仅用于演示目的。 报表数据将被自动伪造。
+      * **[!UICONTROL Prospect]**：指定该公司是潜在的Audience Manager客户，例如获得免费服务的公司 [!DNL POC] 或销售演示的帐户设置。
+      * **[!UICONTROL Test]**：指定公司仅用于内部测试。
+   * **[!UICONTROL Account Types]**：指定此公司的完整帐户类型集。 没有帐户类型与任何其他类型互斥。
+      * **[!UICONTROL Full AAM]**：指定公司将拥有完整的Adobe Audience Manager帐户，并且用户将拥有登录访问权限。
+      * **[!UICONTROL MMP]**：指定允许公司使用主控的营销配置文件([!UICONTROL MMP])功能。
 
-         如果您選取此帳戶型別， **[!UICONTROL Visitor ID Service]** 也會自動選取。
-如需詳細資訊，請參閱 [Experience Cloud對象](https://experienceleague.adobe.com/docs/core-services/interface/services/audiences/audience-library.html?lang=en).
-   * **[!UICONTROL Data Source]**：指定該公司為Audience Manager內的第三方資料提供者。
-   * **[!UICONTROL Targeting Partner]**：指定公司作為Audience Manager客戶的目標平台。
-   * **[!UICONTROL Visitor ID Service]**：指定公司已啟用使用Experience Cloud訪客ID服務。
+         如果您选择此帐户类型， **[!UICONTROL Visitor ID Service]** 也会自动选中。
+有关更多信息，请参阅 [Experience Cloud受众](https://experienceleague.adobe.com/docs/core-services/interface/services/audiences/audience-library.html?lang=en).
+   * **[!UICONTROL Data Source]**：指定该公司是Audience Manager中的第三方数据提供商。
+   * **[!UICONTROL Targeting Partner]**：指定公司用作Audience Manager客户的定位平台。
+   * **[!UICONTROL Visitor ID Service]**：指定允许该公司使用Experience Cloud访客ID服务。
 
-      Experience Cloud 访客 ID 服务可以跨多个 Experience Cloud 解决方案提供一个通用的访客 ID。如需詳細資訊，請參閱 [Experience CloudID服務使用手冊](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=en).
+      Experience Cloud 访客 ID 服务可以跨多个 Experience Cloud 解决方案提供一个通用的访客 ID。欲了解更多信息，请参见 [Experience CloudID服务用户指南](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=en).
 
-   * **[!UICONTROL Agency]**：指定公司將擁有Agency帳戶。
-   * **[!UICONTROL Features]**：選取所需的選項：
-      * **[!UICONTROL Password Expiration]**：設定該公司內的所有使用者密碼在90天後過期，以提高Audience Manager安全性。
-      * **[!UICONTROL Reporting]**：為此公司啟用Audience Manager報告。
-      * **[!UICONTROL Role Based Access Controls]**：啟用此公司的角色型存取控制。 角色型存取控制可讓您建立具有不同存取許可權的使用者群組。 之後，這些群組中的個別使用者只能存取Audience Manager中的特定功能。
+   * **[!UICONTROL Agency]**：指定公司将拥有代理帐户。
+   * **[!UICONTROL Features]**：选择所需的选项：
+      * **[!UICONTROL Password Expiration]**：将该公司内的所有用户密码设置为在90天后过期，以提高Audience Manager安全性。
+      * **[!UICONTROL Reporting]**：为此公司启用Audience Manager报表。
+      * **[!UICONTROL Role Based Access Controls]**：为此公司启用基于角色的访问控制。 基于角色的访问控制允许您创建具有不同访问权限的用户组。 之后，这些组中的个人用户只能访问Audience Manager中的特定功能。
 
 
 1. 单击 **[!UICONTROL Submit Updates]**.
 
-## 刪除公司設定檔 {#delete-company-profile}
+## 删除公司配置文件 {#delete-company-profile}
 
-使用 [!UICONTROL Companies] Audience Manager中的頁面 [!UICONTROL Admin] 工具來刪除現有公司。
+使用 [!UICONTROL Companies] Audience Manager中的页面 [!UICONTROL Admin] 工具，用于删除现有公司。
 
 <!-- t_delete_company.xml -->
 
 >[!NOTE]
 >
->您必須擁有 [!UICONTROL DEXADMIN] 角色以刪除現有公司。
+>您必须拥有 [!UICONTROL DEXADMIN] 角色以删除现有公司。
 
-1. 若要刪除現有公司，請按一下 **[!UICONTROL Companies]**.
+1. 要删除现有公司，请单击 **[!UICONTROL Companies]**.
 
-   ![步驟結果](assets/companies.png)
+   ![步骤结果](assets/companies.png)
 
-1. 按一下  ![](assets/icon_delete.png) 在 **[!UICONTROL Actions]** 欄中的所需公司。
-1. 按一下 **[!UICONTROL OK]** 以確認刪除。
+1. 单击  ![](assets/icon_delete.png) 在 **[!UICONTROL Actions]** 所需公司的列。
+1. 单击 **[!UICONTROL OK]** 以确认删除。

@@ -1,5 +1,5 @@
 ---
-description: 在偵錯客戶問題時，請先使用稽核記錄。
+description: 在调试客户问题时，请首先使用审核日志记录。
 seo-description: Use Audit Logging as a first place to go when debugging customer issues.
 seo-title: Audit Logging
 title: 审核日志记录
@@ -14,13 +14,13 @@ ht-degree: 7%
 
 # 审核日志记录 {#audit-logging}
 
-使用 [!UICONTROL  Audit Logging] 做為客戶問題偵錯時的首選位置。
+使用 [!UICONTROL  Audit Logging] 作为调试客户问题时的首要位置。
 
 >[!NOTE]
 >
->此 [!UICONTROL Audit Logging] 功能與檔案目前正在開發中，可能會有變動。 請記錄您在中遇到的任何問題 [!DNL JIRA] ([!DNL UI] 團隊)。
+>此 [!UICONTROL Audit Logging] 功能和文档目前正在开发中，可能会发生更改。 请记录您在中遇到的任何问题 [!DNL JIRA] ([!DNL UI] 团队)。
 
-![稽核記錄檢視](assets/audit-logging-img.png)
+![“审核日志记录”视图](assets/audit-logging-img.png)
 
 <!-- 
 

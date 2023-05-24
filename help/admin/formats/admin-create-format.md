@@ -1,5 +1,5 @@
 ---
-description: 使用「Audience Manager管理工具」中的「格式」頁面來建立新格式或編輯現有格式。
+description: 使用Audience Manager管理工具中的“格式”页可创建新格式或编辑现有格式。
 seo-description: Use the Formats page in the Audience Manager Admin tool to create a new format or to edit an existing format.
 seo-title: Create or Edit a Format
 title: 创建或编辑格式
@@ -14,48 +14,48 @@ ht-degree: 3%
 
 # 创建或编辑格式 {#create-or-edit-a-format}
 
-使用 [!UICONTROL Formats] 頁面，以建立新格式或編輯現有Audience Manager格式。
+使用 [!UICONTROL Formats] 页面，以创建新格式或编辑现有Audience Manager。
 
 <!-- t_create_format.xml -->
 
 >[!TIP]
 >
->為輸出資料選取格式時，如果可能的話，最好重複使用現有格式。 使用已被證實的格式可確保成功產生您的傳出資料。 若要檢視現有格式的確切格式，請按一下 [!UICONTROL Formats] 選單列中的選項，並依名稱或ID編號搜尋您的格式。 格式錯誤的格式或格式中使用的巨集將提供格式不正確的輸出，或阻止完全輸出資訊。
+>在为出站数据选择格式时，如果可能，最好重复使用现有格式。 使用已验证的格式可确保成功生成出站数据。 要准确地查看现有格式的格式，请单击 [!UICONTROL Formats] 选项，并按名称或ID号搜索您的格式。 格式中使用的格式不正确或宏将提供格式不正确的输出或阻止完全输出信息。
 
-1. 若要建立新格式，請按一下 **[!UICONTROL Formats]** > **[!UICONTROL Add Format]**. 若要編輯現有格式，請在 **[!UICONTROL Name]** 欄。
+1. 要创建新格式，请单击 **[!UICONTROL Formats]** > **[!UICONTROL Add Format]**. 要编辑现有格式，请在 **[!UICONTROL Name]** 列。
 
    ![](assets/create_format.png)
 
 1. 填写以下字段：
-   * **名稱：** （必要）提供格式的描述性名稱。
-   * **型別：** （必要）選取所需的格式：
-      * **[!UICONTROL File]**：透過傳送資料 [!DNL FTP] 檔案。
-      * **[!UICONTROL HTTP]**：將資料內嵌於 [!DNL JSON] 包裝函式。
+   * **名称：** （必需）为格式提供描述性名称。
+   * **类型：** （必需）选择所需的格式：
+      * **[!UICONTROL File]**：通过发送数据 [!DNL FTP] 文件。
+      * **[!UICONTROL HTTP]**：将数据封装在 [!DNL JSON] 包装纸。
 
-1. （視條件而定）如果您選擇 **[!UICONTROL File]**，填寫欄位：
+1. （视情况而定）如果您选择 **[!UICONTROL File]**，填写以下字段：
 
    >[!NOTE]
    >
-   >如需可用巨集的清單，請參閱 [檔案格式巨集](../formats/file-formats.md#concept_A867101505074418A58DE325949E5089) 和 [http格式巨集](../formats/web-formats.md#reference_C392124A5F3F42E49F8AADDBA601ADFE).
+   >有关可用宏的列表，请参见 [文件格式宏](../formats/file-formats.md#concept_A867101505074418A58DE325949E5089) 和 [HTTP格式宏](../formats/web-formats.md#reference_C392124A5F3F42E49F8AADDBA601ADFE).
 
-   * **[!UICONTROL File Name]：** 指定資料傳輸檔案的檔案名稱。
-   * **頁首：** 指定出現在資料傳輸檔案第一列的文字。
-   * **[!UICONTROL Data Row]：** 指定顯示在檔案之每個展開列中的文字。
-   * **[!UICONTROL Maximum File Size (In MB)]：** 指定資料傳輸檔案的檔案大小上限。 壓縮檔案必須小於100 MB。 未壓縮檔案大小沒有限制。
-   * **[!UICONTROL Compression]：** 為您的資料檔案選取所需的壓縮型別：gz或zip。 針對傳遞至 [!UICONTROL AWS S3]，您必須使用.gz或未壓縮的檔案。
-   * **[!UICONTROL .info Receipt]：** 指定傳輸控制([!DNL .info])檔案產生。 此 [!DNL .info] file提供有關檔案傳輸的中繼資料資訊，以便合作夥伴可以驗證Audience Manager是否正確處理檔案傳輸。 如需詳細資訊，請參閱 [用於記錄檔傳輸的傳輸控制檔案](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/receiving-audience-data/batch-outbound-data-transfers/transfer-control-files.html?lang=en).
-   * **[!UICONTROL MD5 Checksum Receipt]：** 指定 [!DNL MD5] 已產生總和檢查碼回條。 此 [!DNL MD5] 總和檢查碼回執，讓合作夥伴可驗證Audience Manager是否正確處理完整傳輸。
+   * **[!UICONTROL File Name]：** 指定数据传输文件的文件名。
+   * **标头：** 指定在数据传输文件第一行中显示的文本。
+   * **[!UICONTROL Data Row]：** 指定在文件的每个出站行中显示的文本。
+   * **[!UICONTROL Maximum File Size (In MB)]：** 指定数据传输文件的最大文件大小。 压缩文件必须小于100 MB。 未压缩文件大小没有限制。
+   * **[!UICONTROL Compression]：** 为数据文件选择所需的压缩类型：gz或zip。 用于投放到 [!UICONTROL AWS S3]中，您必须使用.gz或未压缩的文件。
+   * **[!UICONTROL .info Receipt]：** 指定传输控制([!DNL .info])文件生成。 此 [!DNL .info] file提供了有关文件传输的元数据信息，以便合作伙伴能够验证Audience Manager是否正确处理了文件传输。 有关更多信息，请参阅 [用于日志文件传输的传输控制文件](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/receiving-audience-data/batch-outbound-data-transfers/transfer-control-files.html?lang=en).
+   * **[!UICONTROL MD5 Checksum Receipt]：** 指定 [!DNL MD5] 生成校验和回执。 此 [!DNL MD5] 校验和接收，以便合作伙伴能够验证Audience Manager是否正确处理了完全传输。
 
-1. （視條件而定）如果您選擇 **[!UICONTROL HTTP]**，填寫欄位：
+1. （视情况而定）如果您选择 **[!UICONTROL HTTP]**，填写以下字段：
 
-   * **[!UICONTROL Method]：** 選擇 [!DNL API] 您要用於傳輸處理的方法：
-      * **[!UICONTROL POST]：** 如果您選取 [!DNL POST]，選取內容型別([!DNL XML] 或 [!DNL JSON])，然後指定要求內文。
-      * **[!UICONTROL GET]：** 如果您選取 [!DNL GET]，指定查詢引數。
+   * **[!UICONTROL Method]：** 选择 [!DNL API] 要用于传输过程的方法：
+      * **[!UICONTROL POST]：** 如果您选择 [!DNL POST]，选择内容类型([!DNL XML] 或 [!DNL JSON])，然后指定请求正文。
+      * **[!UICONTROL GET]：** 如果您选择 [!DNL GET]，指定查询参数。
 
-1. 按一下 **[!UICONTROL Create]** 如果您要建立新格式，或按一下 **[!UICONTROL Save Updates]** 如果您正在編輯現有格式。
+1. 单击 **[!UICONTROL Create]** 如果要创建新格式，请单击 **[!UICONTROL Save Updates]** 如果您正在编辑现有格式。
 
-## 刪除格式 {#delete-format}
+## 删除格式 {#delete-format}
 
 1. 单击 **[!UICONTROL Formats]**.
-2. 按一下  ![](assets/icon_delete.png) 在 **[!UICONTROL Actions]** 欄中指定的格式。
-3. 按一下 **[!UICONTROL OK]** 以確認刪除。
+2. 单击  ![](assets/icon_delete.png) 在 **[!UICONTROL Actions]** 列指定所需的格式。
+3. 单击 **[!UICONTROL OK]** 以确认删除。

@@ -1,5 +1,5 @@
 ---
-description: 您可以為Audience Manager客戶啟用二進位Hadoop序列檔案(SEQ)傳出批次傳輸。
+description: 您可以为Audience Manager客户启用二进制Hadoop序列文件(SEQ)出站批量传输。
 seo-description: You can enable binary Hadoop Sequence Files (SEQ) outbound batch transfers for Audience Manager customers.
 seo-title: Enable Hadoop Sequence File Transfers for Outbound
 title: 为出站启用 Hadoop 序列文件传输
@@ -14,12 +14,12 @@ ht-degree: 15%
 
 # 为出站启用 Hadoop 序列文件传输 {#enable-hadoop-sequence-file-transfers-for-outbound}
 
-您可以啟用二進位 [!DNL Hadoop Sequence Files] ([!DNL SEQ])Audience Manager客戶的傳出批次傳輸。
+您可以启用二进制 [!DNL Hadoop Sequence Files] ([!DNL SEQ])Audience Manager客户的出站批量传输。
 
-若要啟用 [!DNL SEQ] 傳出檔案傳輸：
+启用 [!DNL SEQ] 出站文件传输：
 
-1. 選取您要啟用的公司和目的地 [!DNL SEQ] 傳出檔案傳輸。
-1. 在 **[!UICONTROL Edit Destinations]** 介面，向下捲動至 **[!UICONTROL Batch Data]**.
-1. 選取通訊協定： **[!UICONTROL FTP]** 或 **[!UICONTROL S3]**.
-1. 選取格式： **[!UICONTROL AAM-Outbound-SEQ (415)]**.
-1. 按一下以確認 **[!UICONTROL Save]** 位於頁面底部。 客戶現在可以傳送Hadoop序列檔案至目的地。
+1. 选择要启用的公司和目标 [!DNL SEQ] 出站文件传输。
+1. 在 **[!UICONTROL Edit Destinations]** 界面，向下滚动到 **[!UICONTROL Batch Data]**.
+1. 选择协议： **[!UICONTROL FTP]** 或 **[!UICONTROL S3]**.
+1. 选择格式： **[!UICONTROL AAM-Outbound-SEQ (415)]**.
+1. 单击确认 **[!UICONTROL Save]** 页面底部的。 客户现在可以将Hadoop序列文件发送到目标。

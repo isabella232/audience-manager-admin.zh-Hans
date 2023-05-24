@@ -1,5 +1,5 @@
 ---
-description: 透過建立新報告或編輯或刪除現有報告來管理Audience Manager報告。 您也可以將入口網站使用者指派為Tableau使用者。
+description: 通过创建新报告或编辑或删除现有报告来管理Audience Manager报告。 您还可以将门户用户分配为Tableau用户。
 seo-description: Manage Audience Manager reports by creating new reports or by editing or deleting existing reports. You can also assign a portal user as a Tableau user.
 seo-title: Reporting
 title: 报表
@@ -14,12 +14,12 @@ ht-degree: 2%
 
 # 报表 {#reporting}
 
-透過建立新報告或編輯或刪除現有報告來管理Audience Manager報告。 您也可以將入口網站使用者指派為 [!DNL Tableau] 使用者。
+通过创建新报告或编辑或删除现有报告来管理Audience Manager报告。 您还可以将门户用户分配为 [!DNL Tableau] 用户。
 
 <!-- c_reporting.xml -->
 
 ![](assets/reporting.png)
 
-您可以按一下所需欄的標頭，以遞增或遞減順序排序每個欄。
+您可以通过单击所需列的标题，按升序或降序对每个列进行排序。
 
-使用 [!UICONTROL Search] 方塊或清單底部的分頁控制項來尋找所需的報表。
+使用 [!UICONTROL Search] 框或列表底部的分页控件以查找所需的报表。

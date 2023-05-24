@@ -1,5 +1,5 @@
 ---
-description: 使用「Audience Manager管理員」工具中的「伺服器」頁面，建立新的HTTP伺服器或編輯現有的伺服器。
+description: 使用“Audience Manager管理”工具中的“服务器”页可创建新的HTTP服务器或编辑现有服务器。
 seo-description: Use the Servers page in the Audience Manager Admin tool to create a new HTTP server or to edit an existing server.
 seo-title: Create or Edit an HTTP Server
 title: 创建或编辑 HTTP 服务器
@@ -14,24 +14,24 @@ ht-degree: 6%
 
 # 创建或编辑 HTTP 服务器 {#create-or-edit-an-http-server}
 
-使用 [!UICONTROL Servers] 頁面，以建立新的HTTP伺服器或編輯現有的伺服器。Audience Manager管理工具。
+使用 [!UICONTROL Servers] 页面，用于创建新的HTTP服务器或编辑现有Audience Manager。
 
 >[!NOTE]
 >
->您必須擁有 [!UICONTROL DEXADMIN] 角色，以建立新伺服器或編輯現有伺服器。
+>您必须拥有 [!UICONTROL DEXADMIN] 角色来创建新服务器或编辑现有服务器。
 
-1. 若要建立新伺服器，請前往 **[!UICONTROL Servers]** > **[!UICONTROL Create Server]**. 若要編輯現有伺服器，請在 **[!UICONTROL Label]** 欄。
-1. 指定此伺服器的所需標籤。
-1. 從 **[!UICONTROL Protocol]** 下拉式清單，選取所需的通訊協定： [!DNL HTTP].
+1. 要创建新服务器，请转到 **[!UICONTROL Servers]** > **[!UICONTROL Create Server]**. 要编辑现有服务器，请在 **[!UICONTROL Label]** 列。
+1. 为此服务器指定所需的标签。
+1. 从 **[!UICONTROL Protocol]** 下拉列表，选择所需的协议： [!DNL HTTP].
 1. 填写以下字段：
 
-   * **[!UICONTROL Domain]：** 指定此伺服器的所需網域（主機）。
-   * **[!UICONTROL Port]：** 指定此伺服器的所需連線埠。 每個加密型別都會顯示預設連線埠。 您可以視需要變更預設連線埠
-   * **[!UICONTROL Maximum Users Per Request]：** 指定此伺服器允許的每個請求的最大使用者數。
-   * **[!UICONTROL URL Prefix]：** 指定 [!DNL URL] 用於此伺服器的前置詞。
-   * **[!UICONTROL Authentication URL]：** 指定 [!UICONTROL Authentication URL] 針對此 `HTTP` 伺服器。
-   * **[!UICONTROL Authentication]：** 指定所需的驗證方法： **[!UICONTROL None]**， **[!UICONTROL Username/Password]**，或 **[!UICONTROL SSH Key]**.
-   * **[!UICONTROL HTTP Signature Header]：** 的名稱 [!DNL HTTP] 由客戶提供的標題，其中包含 [!DNL HTTP] 簽章金鑰。 預設值為 [!UICONTROL X-Signature]，如下列範例所示：
+   * **[!UICONTROL Domain]：** 为此服务器指定所需的域（主机）。
+   * **[!UICONTROL Port]：** 为此服务器指定所需的端口。 将为每种加密类型显示默认端口。 您可以根据需要更改默认端口
+   * **[!UICONTROL Maximum Users Per Request]：** 指定此服务器允许的每个请求的最大用户数。
+   * **[!UICONTROL URL Prefix]：** 指定 [!DNL URL] 用于此服务器的前缀。
+   * **[!UICONTROL Authentication URL]：** 指定 [!UICONTROL Authentication URL] 对于此 `HTTP` 服务器。
+   * **[!UICONTROL Authentication]：** 指定所需的身份验证方法： **[!UICONTROL None]**， **[!UICONTROL Username/Password]**，或 **[!UICONTROL SSH Key]**.
+   * **[!UICONTROL HTTP Signature Header]：** 的名称 [!DNL HTTP] 标头，由客户提供，其中包含 [!DNL HTTP] 签名密钥。 默认值为 [!UICONTROL X-Signature]，如以下示例所示：
 
       ```
       * Connected to partner.website.com (127.0.0.1) port 80 (#0)
@@ -44,13 +44,13 @@ ht-degree: 6%
       POST message content
       ```
 
-   * **[!UICONTROL HTTP Signature Key]：** 用來簽署 [!DNL HTTP] 要求，由客戶提供。
-   * **[!UICONTROL Show Signature Key]：** 切換是否要在瀏覽器中顯示簽名。
-   * **[!UICONTROL HTTP Signature Encryption Method]：** 指定我們用來加密簽名的方法。 使用 [!UICONTROL SHA1] 除非客戶另有偏好。
+   * **[!UICONTROL HTTP Signature Key]：** 用于签署 [!DNL HTTP] 请求，由客户提供。
+   * **[!UICONTROL Show Signature Key]：** 切换是否在浏览器中显示签名。
+   * **[!UICONTROL HTTP Signature Encryption Method]：** 指定我们用于加密签名的方法。 使用 [!UICONTROL SHA1] 除非客户另有选择。
 
    >[!NOTE]
    >
-   >如果您想要啟用 [用於即時資料傳輸的OAuth 2.0驗證](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/receiving-audience-data/real-time-outbound-transfers/oauth-in-outbound-transfers.html?lang=en) 若是合作夥伴，請填寫下表中的欄位。 中的欄位 *斜體* 需要完全依照表格中的方式填寫。
+   >如果要启用 [用于实时数据传输的OAuth 2.0身份验证](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/receiving-audience-data/real-time-outbound-transfers/oauth-in-outbound-transfers.html?lang=en) 对于合作伙伴，请填写下表中的字段。 中的字段 *斜体* 需要完全按照表中的方式填写。
 
    | 名称 | 值 |
    |---|---|
@@ -68,4 +68,4 @@ ht-degree: 6%
    | [!UICONTROL HTTP Signature Key] | [!UICONTROL Leave this field blank] |
    | [!UICONTROL HTTP Signature Encryption Method] | [!UICONTROL None] |
 
-1. 按一下 **[!UICONTROL Create]** 如果您要建立新伺服器，或按一下 **[!UICONTROL Update]** 如果您正在編輯現有伺服器。
+1. 单击 **[!UICONTROL Create]** 如果要创建新服务器，请单击 **[!UICONTROL Update]** 如果您正在编辑现有服务器。

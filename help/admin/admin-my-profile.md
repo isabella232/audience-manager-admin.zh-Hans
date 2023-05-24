@@ -1,5 +1,5 @@
 ---
-description: 編輯Audience Manager管理工具設定檔的詳細資訊或變更密碼。
+description: 编辑Audience Manager管理工具配置文件的详细信息或更改密码。
 seo-description: Edit the details of your Audience Manager Admin tool profile or change your password.
 seo-title: My Profile
 title: 我的配置文件
@@ -14,47 +14,47 @@ ht-degree: 3%
 
 # 我的配置文件 {#my-profile}
 
-編輯Audience Manager管理工具設定檔的詳細資訊或變更密碼。
+编辑Audience Manager管理工具配置文件的详细信息或更改密码。
 
 <!-- c_my_profile.xml -->
 
-## 編輯設定檔 {#edit-profile}
+## 编辑个人资料 {#edit-profile}
 
-檢視及編輯您的Audience Manager管理工具設定檔，包括名字和姓氏、使用者名稱、電子郵件地址、電話號碼、 [!UICONTROL IMS ID]、使用者角色和狀態。
+查看和编辑您的Audience Manager管理工具配置文件，包括名字和姓氏、用户名、电子邮件地址、电话号码、 [!UICONTROL IMS ID]、用户角色和状态。
 
 <!-- t_edit_profile.xml -->
 
 1. 单击 **[!UICONTROL My Profile]**.
 
-   ![步驟結果](assets/profile.png)
+   ![步骤结果](assets/profile.png)
 
 2. 填写以下字段：
-   * **[!UICONTROL First Name]：** （必要）指定您的名字。
-   * **[!UICONTROL Last Name]：** （必要）指定您的姓氏。
-   * **[!UICONTROL Username]：** （必要）指定您的第一個使用者名稱。
-   * **[!UICONTROL Email Address]：** （必要）指定您的電子郵件地址。
-   * **[!UICONTROL Phone Number]：** 指定您的電話號碼。
-   * **[!UICONTROL IMS ID]：** 指定您的網際網路傳訊服務ID。
-   * **[!UICONTROL User Roles]：** 選取所需的使用者角色：
-      * **[!UICONTROL DEXADMIN]：** 提供管理員存取權，以便在Audience Manager管理工具中執行工作。 如果您未選取此選項，則可以選擇個別角色。 這些角色可讓使用者透過以下方式執行任務： [!DNL API] 呼叫，但不在管理工具中。
-      * **[!UICONTROL CREATE_USERS]：** 可讓使用者使用 [!DNL API] 呼叫。
-      * **[!UICONTROL DELETE_USERS]：** 可讓使用者使用刪除現有使用者 [!DNL API] 呼叫。
-      * **[!UICONTROL EDIT_USERS]：** 可讓使用者使用編輯現有使用者 [!DNL API] 呼叫。
-      * **[!UICONTROL VIEW_USERS]：** 可讓使用者在您的Audience Manager設定中使用 [!DNL API] 呼叫。
-      * **[!UICONTROL CREATE_PARTNERS]：** 可讓使用者使用建立Audience Manager合作夥伴 [!DNL API] 呼叫。
-      * **[!UICONTROL DELETE_PARTNERS]：** Audience Manager可讓使用者使用 [!DNL API] 呼叫。
-      * **[!UICONTROL EDIT_PARTNERS]：** 可讓使用者使用編輯Audience Manager合作夥伴 [!DNL API] 呼叫。
-      * **[!UICONTROL VIEW_PARNTERS]：** 可讓使用者使用檢視Audience Manager合作夥伴 [!DNL API] 呼叫。
-   * **[!UICONTROL Status]：** 選取所需的狀態：
-      * **[!UICONTROL Active]：** 指定此使用者在作用中Audience Manager使用者。
-      * **[!UICONTROL Deactivated]：** 指定此使用者為Audience Management中的已停用使用者。
-      * **[!UICONTROL Expired]：** 指定此使用者的Audience Manager帳戶已過期。
-      * **[!UICONTROL Locked Out]：** 指定鎖定此使用者的Audience Manager帳戶。
+   * **[!UICONTROL First Name]：** （必需）指定您的名字。
+   * **[!UICONTROL Last Name]：** （必需）指定您的姓氏。
+   * **[!UICONTROL Username]：** （必需）指定您的第一个用户名。
+   * **[!UICONTROL Email Address]：** （必需）指定您的电子邮件地址。
+   * **[!UICONTROL Phone Number]：** 指定您的电话号码。
+   * **[!UICONTROL IMS ID]：** 指定您的Internet消息服务ID。
+   * **[!UICONTROL User Roles]：** 选择所需的用户角色：
+      * **[!UICONTROL DEXADMIN]：** 提供在“Audience Manager管理工具”中执行任务的管理员访问权限。 如果不选择此选项，则可以选择单个角色。 这些角色让用户可以使用以下方式执行任务 [!DNL API] 调用，但不在管理工具中。
+      * **[!UICONTROL CREATE_USERS]：** 允许用户使用创建新用户 [!DNL API] 呼叫。
+      * **[!UICONTROL DELETE_USERS]：** 允许用户使用删除现有用户 [!DNL API] 呼叫。
+      * **[!UICONTROL EDIT_USERS]：** 允许用户使用编辑现有用户 [!DNL API] 呼叫。
+      * **[!UICONTROL VIEW_USERS]：** 允许用户使用查看您的Audience Manager配置中的其他用户 [!DNL API] 呼叫。
+      * **[!UICONTROL CREATE_PARTNERS]：** Audience Manager允许用户使用 [!DNL API] 呼叫。
+      * **[!UICONTROL DELETE_PARTNERS]：** Audience Manager允许用户使用 [!DNL API] 呼叫。
+      * **[!UICONTROL EDIT_PARTNERS]：** Audience Manager允许用户使用 [!DNL API] 呼叫。
+      * **[!UICONTROL VIEW_PARNTERS]：** Audience Manager允许用户使用 [!DNL API] 呼叫。
+   * **[!UICONTROL Status]：** 选择所需的状态：
+      * **[!UICONTROL Active]：** 指定此用户为活动Audience Manager用户。
+      * **[!UICONTROL Deactivated]：** 指定此用户是Audience Management中的已停用用户。
+      * **[!UICONTROL Expired]：** 指定此用户帐户在Audience Manager中的帐户已过期。
+      * **[!UICONTROL Locked Out]：** 指定此用户帐户在Audience Manager中的帐户已锁定。
 3. 单击 **[!UICONTROL Submit]**.
 
-## 變更密碼 {#change-password}
+## 更改密码 {#change-password}
 
-變更您的Audience Manager管理工具密碼。
+更改Audience Manager管理工具密码。
 
 <!-- t_change_password.xml -->
 
@@ -63,16 +63,16 @@ ht-degree: 3%
 
    ![](assets/change_password.png)
 
-   您的Audience Manager密碼必須是：
+   您的Audience Manager密码必须是：
 
-   * 長度至少為8個字元；
-   * 至少包含一個大寫字元；
-   * 至少包含一個小寫字元；
-   * 至少包含一個數字；
-   * 至少包含一個特殊字元；
-   * 以英數字元開始和結束；
-   * 以英數字元開始和結束。
+   * 长度至少为8个字符；
+   * 至少包含一个大写字符；
+   * 至少包含一个小写字符；
+   * 至少包含一个数字；
+   * 至少包含一个特殊字符；
+   * 以字母数字字符开头和结尾；
+   * 以字母数字字符开头和结尾。
 
-1. 指定您的舊密碼。
-1. 指定您的新密碼，然後確認新密碼。
+1. 指定您的旧密码。
+1. 指定新密码，然后确认新密码。
 1. 单击 **[!UICONTROL OK]**.

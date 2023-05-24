@@ -1,5 +1,5 @@
 ---
-description: 請依照下列指示，產生僅包含最近使用中之使用者的完整同步檔案。 您可能想要篩選作用中的使用者，以推送相關資料至網站上的鎖定目標系統，或限制傳送至DSP的檔案大小。 您無法將此篩選器用於增量同步。
+description: 按照以下说明生成仅包含最近活动用户的完整同步文件。 您可能需要筛选活动用户，以将相关数据推送到现场定位系统，或限制发送到DSP的文件的大小。 不能将此筛选器用于增量同步。
 seo-description: Follow these instructions to generate a full synchronization file that includes recently active users only. You may want to filter for active users to push relevant data to an on-site targeting system or to limit the size of the files sent to a DSP. You cannot use this filter with incremental synchronization.
 seo-title: Filter Outbound Data by Active Users Only
 title: 仅按活动用户筛选出站数据
@@ -14,21 +14,21 @@ ht-degree: 7%
 
 # 仅按活动用户筛选出站数据 {#filter-outbound-data-by-active-users-only}
 
-請依照下列指示，產生僅包含最近使用中之使用者的完整同步檔案。 您可能想要篩選作用中的使用者，以推送相關資料至網站上的鎖定目標系統，或限制傳送至DSP的檔案大小。 您無法將此篩選器用於增量同步。
+按照以下说明生成仅包含最近活动用户的完整同步文件。 您可能需要筛选活动用户，以将相关数据推送到现场定位系统，或限制发送到DSP的文件的大小。 不能将此筛选器用于增量同步。
 
 >[!NOTE]
 >
->訪客不需要出現在選取的客戶網站上或其廣告流量中，即可符合「作用中」資格。 任何人都可以看見它們 [!DNL Audience Manager] 符合資格為「作用中」的客戶或合作夥伴。
+>访客无需出现在选定的客户网站上或其广告流量中，即可获得“活动”资格。 任何人都可以看到它们 [!DNL Audience Manager] 客户或合作伙伴，以符合“活动”资格。
 
-僅依作用中使用者篩選：
+要仅按活动用户筛选，请执行以下操作：
 
 1. 单击 **[!UICONTROL Companies]**.
-1. 選取您要使用的公司，然後按一下 **[!UICONTROL Destinations]**.
-1. 在 [!UICONTROL Batch Data] 區段，設定下列選項：
+1. 选择要使用的公司，然后单击 **[!UICONTROL Destinations]**.
+1. 在 [!UICONTROL Batch Data] 部分，设置以下选项：
 
-   * **[!UICONTROL Sync Type]**：選取 **[!UICONTROL Customer]** 或 **[!UICONTROL Platform]**.
-   * **[!UICONTROL Sync Type Lookback Period]**：此時間間隔會定義資料檔案的範圍。 選項包括 **[!UICONTROL 24 hours]**， **[!UICONTROL 7 days]**， **[!UICONTROL 30 days]**.
-   * **[!UICONTROL Incremental Sync Scheduled Run]**: Select **[!UICONTROL Never]**. 請記住，此篩選器僅適用於完整同步檔案。
-   * **[!UICONTROL Full Sync Scheduled Run]**：這會決定您接收此檔案的頻率。 選項包括 **[!UICONTROL 24 hours]**， **[!UICONTROL 7 days]**， **[!UICONTROL 30 days]**，或 **[!UICONTROL Never]** （以停用）。
+   * **[!UICONTROL Sync Type]**：选择 **[!UICONTROL Customer]** 或 **[!UICONTROL Platform]**.
+   * **[!UICONTROL Sync Type Lookback Period]**：此时间间隔定义数据文件的范围。 选项包括 **[!UICONTROL 24 hours]**， **[!UICONTROL 7 days]**， **[!UICONTROL 30 days]**.
+   * **[!UICONTROL Incremental Sync Scheduled Run]**: Select **[!UICONTROL Never]**. 请记住，此过滤器仅适用于完整同步文件。
+   * **[!UICONTROL Full Sync Scheduled Run]**：此值决定您接收此文件的频率。 选项包括 **[!UICONTROL 24 hours]**， **[!UICONTROL 7 days]**， **[!UICONTROL 30 days]**，或 **[!UICONTROL Never]** （禁用）。
 
 1. 单击 **[!UICONTROL Save]**.

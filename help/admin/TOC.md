@@ -29,7 +29,7 @@ ht-degree: 96%
    + [管理公司限制](companies/admin-company-limits.md)
    + [管理公司用户](companies/admin-manage-company-users.md)
    + [仅按活动用户筛选出站数据](companies/outbound-active-user-filter.md)
-   + [管理第二方資料的上線存取](companies/admin-manage-onboarding-access.md)
+   + [管理对第二方数据的载入访问](companies/admin-manage-onboarding-access.md)
 + 服务器{#servers}
    + [服务器概述](admin-servers/admin-servers.md)
    + [创建或编辑 FTP 服务器](admin-servers/create-ftp-server.md)

@@ -1,5 +1,5 @@
 ---
-description: 檢視或編輯容器的資料提供者。
+description: 查看或编辑容器的数据提供程序。
 seo-description: View or edit data providers for containers.
 seo-title: Manage Containers
 title: 管理容器
@@ -14,31 +14,31 @@ ht-degree: 6%
 
 # 管理容器 {#manage-containers}
 
-檢視或編輯容器的資料提供者。
+查看或编辑容器的数据提供程序。
 
 <!-- t_containers.xml -->
 
 >[!NOTE]
 >
->依預設，公司會建立一個容器。 您可以在使用者介面中為公司建立其他容器，位置如下： **[!UICONTROL Tools > Tags]**.
+>默认情况下，公司会创建一个容器。 您可以在用户界面中为公司创建更多容器，位置如下： **[!UICONTROL Tools > Tags]**.
 
-1. 按一下 **[!UICONTROL Companies]**，然後找到並按一下所需的公司以顯示其 [!UICONTROL Profile] 頁面。
+1. 单击 **[!UICONTROL Companies]**，然后找到并单击所需的公司以显示其 [!UICONTROL Profile] 页面。
 
-   使用 [!UICONTROL Search] 方塊或清單底部的分頁控制項，以尋找所需的公司。 您可以按一下所需欄的標頭，以遞增或遞減順序排序每個欄。
+   使用 [!UICONTROL Search] 框或列表底部的分页控件以查找所需的公司。 您可以通过单击所需列的标题，按升序或降序对每个列进行排序。
 
-1. 按一下 **[!UICONTROL Containers]** 標籤。
+1. 单击 **[!UICONTROL Containers]** 选项卡。
 
    ![](assets/containers.png)
 
-1. 按一下容器的列，即可檢視或編輯該容器的資料提供者。
+1. 单击容器的行可查看或编辑该容器的数据提供程序。
 
-   ![步驟結果](assets/containers_edit.png)
+   ![步骤结果](assets/containers_edit.png)
 
-1. 將資料來源從 **[!UICONTROL Available Data Sources]** 和 **[!UICONTROL Selected Data Sources for This Container]** 清單，方法是選取所需的資料來源，然後視需要按一下向右或向左箭頭。
+1. 从移动数据源 **[!UICONTROL Available Data Sources]** 和 **[!UICONTROL Selected Data Sources for This Container]** 列表的方法是选择所需的数据源，然后根据需要单击向右或向左箭头。
 
-   您也可以從以下位置執行此工作 [第三方資料提供者](../companies/admin-third-party-providers.md#task_E942DD674D794BA6B8EFD52FD866E689)頁面。
+   您还可以从以下位置执行此任务 [第三方数据提供商](../companies/admin-third-party-providers.md#task_E942DD674D794BA6B8EFD52FD866E689)页面。
 
-1. 按一下 **[!UICONTROL Save]** 若您進行變更。
+1. 单击 **[!UICONTROL Save]** 如果您进行了更改。
 
 >[!MORELIKETHIS]
 >

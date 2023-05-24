@@ -1,8 +1,8 @@
 ---
-description: 有些客戶可能不想提供其Amazon Simple Storage Service (Amazon S3)存取權或秘密金鑰來Adobe授權將目的地資料上傳至其貯體。
+description: 某些客户可能不想提供其Amazon Simple Storage Service (Amazon S3)访问或密钥以Adobe授权将目标数据上传到他们的存储桶。
 seo-description: Some customers may not want to provide their Amazon Simple Storage Service (Amazon S3) access or secret keys to Adobe to authorize destination data upload to their buckets.
 seo-title: How To  Authorize Cross-Account Amazon S3 Bucket Access for Batch Destinations
-title: 如何授權批次目標的跨帳戶Amazon S3儲存貯體存取
+title: 如何授权跨帐户Amazon S3存储段访问以实现批处理目标
 uuid: da2bcbda-a765-437a-bfe9-4355383a4730
 exl-id: f3b97c31-714f-4841-884b-bc507267a932
 source-git-commit: f5d74995f0664cf63e68b46f1f3c608f34df0e80
@@ -12,18 +12,18 @@ ht-degree: 0%
 
 ---
 
-# 如何授權批次目標的跨帳戶Amazon S3儲存貯體存取{#authorize-cross-account-bucket-batch}
+# 如何授权跨帐户Amazon S3存储段访问以实现批处理目标{#authorize-cross-account-bucket-batch}
 
-有些客戶可能不想提供他們的 [!DNL Amazon S3] Adobe的存取或秘密金鑰，可授權將目的地資料上傳至其貯體。
+某些客户可能不想提供其 [!DNL Amazon S3] Adobe的访问密钥或机密密钥，用于授权将目标数据上传到其存储桶。
 
-我們可以提供給客戶的替代方案是 [!UICONTROL Cross-Account Bucket Permissions] 在 [!DNL Amazon S3]. 此程式的說明請參閱 [AWS檔案](https://docs.aws.amazon.com/AmazonS3/latest/dev/example-walkthroughs-managing-access-example2.html). 若要在Audience Manager中啟用此替代方案，請遵循下列步驟：
+我们可以为客户提供的替代方案是 [!UICONTROL Cross-Account Bucket Permissions] 在 [!DNL Amazon S3]. 此过程的说明请参见 [AWS文档](https://docs.aws.amazon.com/AmazonS3/latest/dev/example-walkthroughs-managing-access-example2.html). 要在Audience Manager中启用此替代方法，请执行以下步骤：
 
-1. 前往 **[!UICONTROL Servers]** 並選取 **[!UICONTROL Create Server]**.
-1. 選取 **[!UICONTROL S3]** 在 **[!UICONTROL Protocol/Credentials]** 下拉式遮色片。
-1. 檢查 **[!UICONTROL Use Internal Adobe Key]** 選項。
-1. 在中使用您的客戶帳戶和貯體名稱 [!DNL Amazon S3].
-1. 請確定您的客戶白名單中有 [!DNL Amazon S3] 帳戶 `975822914085` 於 [!DNL S3] 貯體。
+1. 转到 **[!UICONTROL Servers]** 并选择 **[!UICONTROL Create Server]**.
+1. 选择 **[!UICONTROL S3]** 在 **[!UICONTROL Protocol/Credentials]** 下拉蒙版。
+1. 查看 **[!UICONTROL Use Internal Adobe Key]** 选项。
+1. 在中使用客户的帐户和分段名称 [!DNL Amazon S3].
+1. 确保您的客户白名单中列出了 [!DNL Amazon S3] 帐户 `975822914085` 关于 [!DNL S3] 桶。
 
 >[!NOTE]
 >
->我們的傳出發佈者會確保許可權層級 `bucket-owner-full-control` 已上傳資料中已設定，因此您的客戶可以擁有該資料。
+>我们的出站发布者可确保权限级别 `bucket-owner-full-control` 对上传的数据进行了设置，以便您的客户可以拥有该数据。

@@ -1,5 +1,5 @@
 ---
-description: 參與Adobe Experience Cloud Device Co-op的公司可使用Device Graph選項。 如果客戶與整合至Audience Manager的第三方裝置圖表提供者也有合約關係，本節將顯示該裝置圖表的選項。 這些選項位於「公司>公司名稱>設定檔>裝置圖表選項」中。
+description: 设备图选项适用于参与Adobe Experience Cloud设备协作的公司。 如果客户还与与Audience Manager集成的第三方设备图提供商存在合同关系，本节将显示该设备图的选项。 这些选项位于公司>公司名称>配置文件>设备图选项中。
 seo-description: The Device Graph Options are available to companies that participate in the Adobe Experience Cloud Device Co-op. If a customer also has a contractual relationship with a third-party device graph provider that is integrated with Audience Manager, this section will show options for that device graph. These options are located in Companies > company name > Profile > Device Graph Options.
 seo-title: Device Graph Options for Companies
 title: 适用于公司的设备图选项
@@ -14,42 +14,42 @@ ht-degree: 3%
 
 # 适用于公司的设备图选项 {#device-graph-options-for-companies}
 
-此 [!UICONTROL Device Graph Options] 可供參與「 」的公司使用 [!DNL Adobe Experience Cloud Device Co-op]. 如果客戶與整合至Audience Manager的第三方裝置圖表提供者也有合約關係，本節將顯示該裝置圖表的選項。 這些選項位於 [!UICONTROL Companies] >公司名稱> [!UICONTROL Profile] > [!UICONTROL Device Graph Options].
+此 [!UICONTROL Device Graph Options] 适用于参与 [!DNL Adobe Experience Cloud Device Co-op]. 如果客户还与与Audience Manager集成的第三方设备图提供商存在合同关系，本节将显示该设备图的选项。 这些选项位于 [!UICONTROL Companies] >公司名称> [!UICONTROL Profile] > [!UICONTROL Device Graph Options].
 
 ![](assets/adminUIdataSource.png)
 
-此圖例使用第三方裝置圖表選項的通用名稱。 在生產環境中，這些名稱會來自裝置圖表提供者，可能會因此處顯示的名稱而異。 例如， [!DNL LiveRamp] 選項通常（但不總是）：
+此图使用第三方设备图选项的通用名称。 在生产环境中，这些名称来自设备图提供商，可能与此处显示的名称不同。 例如， [!DNL LiveRamp] 选项通常（但不总是如此）：
 
 * 从 &quot;[!DNL LiveRamp]&quot;
-* 包含中間名，名稱會有所不同
-* 結尾為&quot;[!UICONTROL - Household]「或」[!UICONTROL -Person]&quot;
+* 包含各种不同的中间名
+* 结尾为&quot;[!UICONTROL - Household]“或”[!UICONTROL -Person]”
 
-## 定義的裝置圖表選項 {#device-graph-options-defined}
+## 定义的设备图选项 {#device-graph-options-defined}
 
-您在此選取的裝置圖表選項會公開或隱藏 [!UICONTROL Device Options] 可供選擇的選項 [!DNL Audience Manager] 客戶建立 [!UICONTROL Profile Merge Rule].
+您在此处选择的设备图选项会公开或隐藏 [!UICONTROL Device Options] 可供选择的选项 [!DNL Audience Manager] 客户创建 [!UICONTROL Profile Merge Rule].
 
-### Co-op裝置圖表 {#co-op-graph}
+### 协作设备图 {#co-op-graph}
 
-參與「 」的客戶 [Adobe Experience Cloud Device Co-op](https://experienceleague.adobe.com/docs/device-co-op/using/about/overview.html?lang=en) 使用這些選項來建立 [!UICONTROL Profile Merge Rule] 替換為 [確定性資料和概率資料](https://experienceleague.adobe.com/docs/device-co-op/using/device-graph/links.html?lang=en). 此 [!DNL Corporate Provisioning Team] 透過後端啟用和停用此選項 [!DNL API] 呼叫。 您無法核取或清除 [!DNL Admin UI]. 此外， **[!UICONTROL Co-op Device Graph]** 和 **[!UICONTROL Company Device Graph]** 選項互斥。 客戶可以要求我們啟用其中一個，但不能同時啟用兩者。 一旦勾選，系統就會公開 **[!UICONTROL Co-op Device Graph]** 中的控制項 [!UICONTROL Device Options] 設定 [!UICONTROL Profile Merge Rule].
+参与 [Adobe Experience Cloud Device Co-op](https://experienceleague.adobe.com/docs/device-co-op/using/about/overview.html?lang=en) 使用这些选项创建 [!UICONTROL Profile Merge Rule] 替换为 [确定性数据和概率性数据](https://experienceleague.adobe.com/docs/device-co-op/using/device-graph/links.html?lang=en). 此 [!DNL Corporate Provisioning Team] 通过后端激活和停用此选项 [!DNL API] 呼叫。 您无法选中或清除 [!DNL Admin UI]. 此外， **[!UICONTROL Co-op Device Graph]** 和 **[!UICONTROL Company Device Graph]** 选项相互排斥。 客户可以要求我们激活其中一个，但不能同时激活两者。 选中后，将会公开 **[!UICONTROL Co-op Device Graph]** 中的控件 [!UICONTROL Device Options] 设置 [!UICONTROL Profile Merge Rule].
 
 ![](assets/adminUI1.png)
 
-### 公司裝置圖表 {#company-graph}
+### 公司设备图 {#company-graph}
 
-此選項適用於 [!DNL Analytics] 使用 [!UICONTROL People] 量度在其中 [!DNL Analytics] 報告套裝。 此 [!DNL Corporate Provisioning Team] 透過後端啟用和停用此選項 [!DNL API] 呼叫。 您無法核取或清除 [!DNL Admin UI]. 此外， **[!UICONTROL Company Device Graph]** 和 **[!UICONTROL Co-op Device Graph]** 選項互斥。 客戶可以要求我們啟用其中一個，但不能同時啟用兩者。 選取時：
+此选项用于 [!DNL Analytics] 使用 [!UICONTROL People] 量度 [!DNL Analytics] 报表包。 此 [!DNL Corporate Provisioning Team] 通过后端激活和停用此选项 [!DNL API] 呼叫。 您无法选中或清除 [!DNL Admin UI]. 此外， **[!UICONTROL Company Device Graph]** 和 **[!UICONTROL Co-op Device Graph]** 选项相互排斥。 客户可以要求我们激活其中一个，但不能同时激活两者。 选中后：
 
-* 此裝置圖表使用屬於您設定之公司的確定性資料（無機率資料）。
-* [!DNL Audience Manager] 自動建立 [!UICONTROL Data Source] 已呼叫 `*`合作夥伴名稱`*-Company Device Graph-Person`. 在 [!UICONTROL Data Source] 詳細資訊頁面， [!DNL Audience Manager] 客戶可以變更合作夥伴名稱、說明並套用 [資料匯出控制](https://experienceleague.adobe.com/docs/device-co-op/using/device-graph/links.html?lang=en) 至此資料來源。
-* [!DNL Audience Manager] 客戶 *不要* 在中檢視新設定 [!UICONTROL Device Options] 區段 [!UICONTROL Profile Merge Rule].
+* 此设备图使用属于您配置的公司的确定性数据（无概率数据）。
+* [!DNL Audience Manager] 自动创建 [!UICONTROL Data Source] 已调用 `*`合作伙伴名称`*-Company Device Graph-Person`. 在 [!UICONTROL Data Source] 详细信息页面， [!DNL Audience Manager] 客户可以更改合作伙伴名称、描述和应用 [数据导出控制](https://experienceleague.adobe.com/docs/device-co-op/using/device-graph/links.html?lang=en) 至此数据源。
+* [!DNL Audience Manager] 客户 *不要* 在中查看新设置 [!UICONTROL Device Options] 部分 [!UICONTROL Profile Merge Rule].
 
-### LiveRamp裝置圖表（個人或家庭） {#liveramp-device-graph}
+### LiveRamp设备图（人员或家庭） {#liveramp-device-graph}
 
-這些核取方塊會在 [!DNL Admin UI] 當合作夥伴建立 [!UICONTROL Data Source] 並選取 **[!UICONTROL Use as an Authenticated Profile]** 和/或 **[!UICONTROL Use as a Device Graph]**. 這些設定的名稱由協力廠商裝置圖表提供者決定(例如 [!DNL LiveRamp]， [!DNL TapAd]、等)。 如果勾選，表示您設定的公司將會使用這些裝置圖表提供的資料。
+这些复选框在 [!DNL Admin UI] 当合作伙伴创建 [!UICONTROL Data Source] 并选择 **[!UICONTROL Use as an Authenticated Profile]** 和/或 **[!UICONTROL Use as a Device Graph]**. 这些设置的名称由第三方设备图提供商确定(例如， [!DNL LiveRamp]， [!DNL TapAd]、等)。 选中后，这意味着您配置的公司将使用这些设备图提供的数据。
 
 ![](assets/adminUI2.png)
 
 >[!MORELIKETHIS]
 >
 >* [定义的配置文件合并规则选项](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/profile-merge-rules/merge-rule-definitions.html?lang=en)
->* [資料來源設定和功能表選項](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/data-sources/datasources-list-and-settings.html?lang=en)
+>* [数据源设置和菜单选项](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/data-sources/datasources-list-and-settings.html?lang=en)
 
